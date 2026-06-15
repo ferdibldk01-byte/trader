@@ -7,10 +7,14 @@ on:
     - cron: "*/30 * * * *"   # her 30 dakika
   workflow_dispatch: {}        # GitHub'dan elle "Run" butonu için
 
-# Aynı anda iki tarama çakışmasın
+# Aynı anda iki tarama çakışmasın (durum dosyası bozulmasın)
 concurrency:
   group: signals
   cancel-in-progress: false
+
+# Durum dosyasını (state/) repoya geri yazabilmek için yazma izni
+permissions:
+  contents: write
 
 jobs:
   sinyal-tara:
@@ -35,3 +39,16 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py signals
+
+      - name: Durumu (state) repoya kaydet
+        # Sinyal durumu ve performans kaydı çalışmalar arası korunsun
+        run: |
+          git config user.name "trader-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/ || true
+          if git diff --staged --quiet; then
+            echo "Durum değişmedi, commit gerekmiyor."
+          else
+            git commit -m "durum güncelleme (otomatik) [skip ci]"
+            git push
+          fi

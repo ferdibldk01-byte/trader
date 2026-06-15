@@ -28,6 +28,7 @@ from src.config import load_config, load_secrets
 from src.data import fetch_ohlcv, load_csv, save_csv
 from src.dca import DCAConfig, backtest_dca
 from src import notifier
+from src import scanner
 from src.optimize import grid_search, walk_forward
 from src.risk import build_long_plan
 from src.strategy import generate_signals
@@ -219,61 +220,128 @@ def cmd_optimize(config: dict) -> None:
     print("=" * 72 + "\n")
 
 
-def _analyze_symbol(symbol: str, config: dict) -> dict:
-    """Bir coin için en son mumun durumunu ve sinyali hesaplar."""
-    df = fetch_ohlcv(symbol, config["timeframe"], days=60,
-                     market_type=config["market_type"])
-    sig = generate_signals(df, config["strategy"]).dropna()
-    last = sig.iloc[-1]
-    if last["long_entry"]:
-        action, emoji = "AL", "🟢"
-    elif last["exit_signal"]:
-        action, emoji = "SAT / UZAK DUR", "🔴"
-    else:
-        action, emoji = "BEKLE", "⚪"
-    trend = "yukarı" if last["ema_fast"] > last["ema_slow"] else "aşağı"
-    return {
-        "symbol": symbol, "action": action, "emoji": emoji,
-        "price": last["close"], "rsi": last["rsi"], "adx": last["adx"],
-        "trend": trend,
-    }
+_DIR_EMOJI = {"LONG": "🟢", "SHORT": "🔴", "FLAT": "⚪"}
+_DIR_TR = {"LONG": "LONG (AL)", "SHORT": "SHORT (SAT)", "FLAT": "BEKLE"}
 
 
-def cmd_signals(config: dict) -> None:
-    """Tüm coinleri tarar, sinyalleri ekrana yazar VE Telegram'a gönderir."""
-    lines = ["📊 <b>Trader Bot Sinyalleri</b>",
-             f"<i>{config['timeframe']} | trend takibi</i>", ""]
-    ok_count = 0
+def _fmt_price(p: float) -> str:
+    """Fiyatı büyüklüğüne göre okunaklı formatlar (0.0883 vs 65000)."""
+    if p >= 100:
+        return f"{p:,.2f}"
+    if p >= 1:
+        return f"{p:.3f}"
+    return f"{p:.5f}"
+
+
+def cmd_signals(config: dict, force: bool = False) -> None:
+    """Tüm coinleri tarar; konsensüs + long/short + stop/hedef üretir.
+
+    Sadece sinyal DEĞİŞTİĞİNDE Telegram'a bildirir (spam önleme).
+    force=True ile (manuel test) her zaman tam tabloyu gönderir.
+    """
+    signals = []
     errors: list[str] = []
     for symbol in config["symbols"]:
         try:
-            a = _analyze_symbol(symbol, config)
+            s = scanner.analyze_symbol(symbol, config)
         except Exception as e:
             log.warning("%s analiz edilemedi: %s", symbol, e)
             errors.append(f"{symbol}: {type(e).__name__}: {e}")
             continue
-        ok_count += 1
-        line = (f"{a['emoji']} <b>{a['symbol']}</b> → {a['action']}\n"
-                f"   fiyat {a['price']:.4f} | RSI {a['rsi']:.0f} | "
-                f"ADX {a['adx']:.0f} | trend {a['trend']}")
-        lines.append(line)
-        print(f"{a['emoji']} {a['symbol']:12} {a['action']:14} "
-              f"fiyat={a['price']:.4f} RSI={a['rsi']:.0f} ADX={a['adx']:.0f}")
+        signals.append(s)
+        stars = "⭐" * s.strength
+        print(f"{_DIR_EMOJI[s.direction]} {s.symbol:12} {s.direction:6} "
+              f"{stars:3} fiyat={_fmt_price(s.price)} RSI={s.rsi:.0f} ADX={s.adx:.0f}")
 
-    # Hiç coin işlenemediyse: sessiz kalma, gerçek hatayı bildir (teşhis için)
-    if ok_count == 0:
+    if not signals:
         diag = errors[0] if errors else "bilinmeyen sebep"
-        lines.append("⚠️ <b>Hiçbir coin verisi çekilemedi.</b>")
-        lines.append(f"Sebep: <code>{diag}</code>")
+        if notifier.is_configured():
+            notifier.send_message(
+                "⚠️ <b>Hiçbir coin verisi çekilemedi.</b>\n"
+                f"Sebep: <code>{diag}</code>")
         print("HATA TEŞHİSİ — ilk hata:", diag)
+        return
 
-    message = "\n".join(lines)
+    # Değişimleri algıla (ve kağıt-performansı kaydet)
+    changes = scanner.detect_changes(signals)
+
+    # Mesaj kur
+    msg = _build_message(config, signals, changes)
+
+    # Spam önleme: sadece değişiklik varsa (veya force) gönder
+    should_send = bool(changes) or force
+    if not should_send:
+        log.info("Değişiklik yok — Telegram'a mesaj gönderilmedi (spam önleme).")
+        return
+
     if notifier.is_configured():
-        ok = notifier.send_message(message)
+        ok = notifier.send_message(msg)
         log.info("Telegram'a gönderildi." if ok else "Telegram gönderilemedi.")
     else:
         log.warning("Telegram ayarlı değil. .env içine TELEGRAM_BOT_TOKEN ve "
                     "TELEGRAM_CHAT_ID ekleyin. (chat id için: python -m src.notifier)")
+
+
+def _build_message(config: dict, signals: list, changes: list) -> str:
+    lines = ["📊 <b>Trader Bot — Konsensüs Sinyalleri</b>",
+             f"<i>{config['timeframe']} | 3 strateji oylaması</i>", ""]
+
+    # 1) Değişimler (en önemli kısım — en üstte)
+    if changes:
+        lines.append("🔔 <b>YENİ DEĞİŞİMLER</b>")
+        for c in changes:
+            if c["type"] == "OPEN":
+                emo = _DIR_EMOJI[c["direction"]]
+                stars = "⭐" * c["strength"]
+                line = (f"{emo} <b>{c['symbol']}</b> → {_DIR_TR[c['direction']]} {stars}\n"
+                        f"   giriş {_fmt_price(c['entry'])}")
+                if c.get("stop") and c.get("target"):
+                    line += (f" | stop {_fmt_price(c['stop'])}"
+                             f" | hedef {_fmt_price(c['target'])}")
+                lines.append(line)
+            else:  # CLOSE
+                pnl = c["pnl_pct"]
+                emo = "✅" if pnl > 0 else "❌"
+                lines.append(f"{emo} <b>{c['symbol']}</b> kapandı "
+                             f"({c['direction']}) → kağıt P/L %{pnl}")
+        lines.append("")
+
+    # 2) Tam tablo (mevcut durum)
+    lines.append("📋 <b>Mevcut durum</b>")
+    for s in sorted(signals, key=lambda x: -x.strength):
+        stars = "⭐" * s.strength
+        lines.append(f"{_DIR_EMOJI[s.direction]} <b>{s.symbol}</b> {s.direction} "
+                     f"{stars}  ({_fmt_price(s.price)})")
+
+    lines.append("")
+    lines.append("<i>⚠️ Sinyal ≠ emir. SHORT futures gerektirir (kaldıraç=risk). "
+                 "Garanti kâr yoktur.</i>")
+    return "\n".join(lines)
+
+
+def cmd_performance(config: dict) -> None:
+    """Kaydedilmiş sinyallerin DÜRÜST (kağıt) canlı performansını gösterir."""
+    rep = scanner.performance_report()
+    print("\n" + "=" * 60)
+    print("  SİNYAL PERFORMANSI (canlı/kağıt — backtest DEĞİL)")
+    print("=" * 60)
+    if rep["closed"] == 0:
+        print(" ", rep["msg"])
+    else:
+        print(f"  Kapanmış sinyal   : {rep['closed']}")
+        print(f"  Kazanma oranı     : %{rep['win_rate_pct']}")
+        print(f"  Ortalama P/L      : %{rep['avg_pnl_pct']}")
+        print(f"  Toplam P/L        : %{rep['total_pnl_pct']}")
+        print(f"  En iyi / en kötü  : %{rep['best_pct']} / %{rep['worst_pct']}")
+    print("=" * 60)
+    print("  Bu, gerçek piyasada üretilen sinyallerin GERÇEK sonucudur.")
+    print("  Güvenmeden önce en az 30-50 kapanmış sinyal birikmesini bekle.")
+    print("=" * 60 + "\n")
+    if notifier.is_configured() and rep["closed"] > 0:
+        notifier.send_message(
+            f"📈 <b>Sinyal performansı</b> ({rep['closed']} kapanmış)\n"
+            f"Kazanma %{rep['win_rate_pct']} | Ort. P/L %{rep['avg_pnl_pct']} | "
+            f"Toplam %{rep['total_pnl_pct']}")
 
 
 def cmd_signals_loop(config: dict, every_minutes: int = 30) -> None:
@@ -352,11 +420,16 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Binance trading bot")
     parser.add_argument(
         "command",
-        choices=["fetch", "backtest", "compare", "optimize", "dca", "signals", "paper"],
+        choices=["fetch", "backtest", "compare", "optimize", "dca", "signals",
+                 "performance", "paper"],
     )
     parser.add_argument(
         "--every", type=int, default=0, metavar="DAKIKA",
         help="signals komutunu her N dakikada bir tekrarla (örn: --every 30)",
+    )
+    parser.add_argument(
+        "--force", action="store_true",
+        help="signals: değişiklik olmasa da tam tabloyu gönder (test için)",
     )
     args = parser.parse_args()
 
@@ -366,13 +439,17 @@ def main() -> None:
         cmd_signals_loop(config, every_minutes=args.every)
         return
 
+    if args.command == "signals":
+        cmd_signals(config, force=args.force)
+        return
+
     {
         "fetch": cmd_fetch,
         "backtest": cmd_backtest,
         "compare": cmd_compare,
         "optimize": cmd_optimize,
         "dca": cmd_dca,
-        "signals": cmd_signals,
+        "performance": cmd_performance,
         "paper": cmd_paper,
     }[args.command](config)
 

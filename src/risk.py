@@ -61,3 +61,34 @@ def build_long_plan(
         quantity=qty,
         risk_amount=balance * (risk_cfg["risk_per_trade_pct"] / 100.0),
     )
+
+
+def build_short_plan(
+    balance: float,
+    entry: float,
+    atr_value: float,
+    risk_cfg: dict,
+) -> TradePlan | None:
+    """SHORT için plan: stop YUKARIDA, hedef AŞAĞIDA.
+
+    DİKKAT: Short yapmak spot'ta MÜMKÜN DEĞİLDİR — futures/margin gerekir,
+    bu da kaldıraç = daha yüksek risk demektir. Bu sadece bir SİNYALDİR.
+    """
+    stop = entry + atr_value * risk_cfg["atr_stop_multiplier"]
+    if stop <= entry:
+        return None
+
+    risk_distance = stop - entry
+    take_profit = entry - risk_distance * risk_cfg["take_profit_rr"]
+    if take_profit <= 0:
+        return None
+    # short'ta birim risk = stop - entry (pozitif)
+    risk_amount = balance * (risk_cfg["risk_per_trade_pct"] / 100.0)
+    qty = risk_amount / risk_distance if risk_distance > 0 else 0.0
+    if qty <= 0:
+        return None
+
+    return TradePlan(
+        entry=entry, stop=stop, take_profit=take_profit,
+        quantity=qty, risk_amount=risk_amount,
+    )

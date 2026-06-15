@@ -79,47 +79,54 @@ def add_indicators(df: pd.DataFrame, params: dict) -> pd.DataFrame:
 
 
 def _signals_trend(out: pd.DataFrame, params: dict) -> pd.DataFrame:
-    """Rejim-farkında trend takibi (orijinal strateji)."""
+    """Rejim-farkında trend takibi (orijinal strateji). Long + Short."""
     uptrend = out["ema_fast"] > out["ema_slow"]
     strong_trend = out["adx"] >= params["adx_min"]
     not_overbought = out["rsi"] < params["rsi_overbought"]
-    momentum = out["close"] > out["ema_fast"]
+    momentum_up = out["close"] > out["ema_fast"]
 
-    out["long_entry"] = uptrend & strong_trend & not_overbought & momentum
+    # Short, long'un simetriği: düşüş trendi + güçlü trend + aşırı satım değil
+    rsi_oversold = 100 - params["rsi_overbought"]
+    not_oversold = out["rsi"] > rsi_oversold
+    momentum_down = out["close"] < out["ema_fast"]
+
+    out["long_entry"] = uptrend & strong_trend & not_overbought & momentum_up
+    out["short_entry"] = (~uptrend) & strong_trend & not_oversold & momentum_down
     out["exit_signal"] = out["ema_fast"] < out["ema_slow"]
     return out
 
 
 def _signals_meanrev(out: pd.DataFrame, params: dict) -> pd.DataFrame:
-    """Ortalamaya dönüş: YUKARI trendde sert geri çekilmeyi (oversold) satın al.
+    """Ortalamaya dönüş: trend yönünde aşırılığı tersine oyna. Long + Short.
 
-    Mantık: ana trend yukarı (fiyat > yavaş EMA) AMA RSI aşırı satım bölgesinde.
-    Yani 'düşüşü değil, yükselen trend içindeki indirimi' alırız. Çıkış: RSI
-    normale dönünce (orta bant) ya da trend kırılınca.
+    Long: yukarı trendde (fiyat > yavaş EMA) RSI aşırı satımda → indirimden al.
+    Short: aşağı trendde (fiyat < yavaş EMA) RSI aşırı alımda → tepeden sat.
     """
     rsi_buy = params.get("rsi_oversold", 35)
     rsi_exit = params.get("rsi_exit", 55)
+    rsi_sell = 100 - rsi_buy
     in_uptrend = out["close"] > out["ema_slow"]
 
     out["long_entry"] = in_uptrend & (out["rsi"] < rsi_buy)
+    out["short_entry"] = (~in_uptrend) & (out["rsi"] > rsi_sell)
     out["exit_signal"] = (out["rsi"] > rsi_exit) | (out["close"] < out["ema_slow"])
     return out
 
 
 def _signals_breakout(out: pd.DataFrame, params: dict) -> pd.DataFrame:
-    """Donchian kırılması: son N mumun en yükseğini aşınca al (momentum).
-
-    Çıkış: son M mumun en düşüğünün altına inince (trend takip stilinde
-    kırılma stratejisi — turtle traders mantığı).
+    """Donchian kırılması: son N mumun en yükseğini aşınca al, en düşüğünü
+    kırınca short. (Turtle traders mantığı, iki yönlü.)
     """
     entry_n = params.get("breakout_entry", 20)
     exit_n = params.get("breakout_exit", 10)
     # shift(1): mevcut mumu dahil etmeden ÖNCEKİ N mumun seviyesi (lookahead yok)
     upper = out["high"].rolling(entry_n).max().shift(1)
-    lower = out["low"].rolling(exit_n).min().shift(1)
+    lower_entry = out["low"].rolling(entry_n).min().shift(1)
+    lower_exit = out["low"].rolling(exit_n).min().shift(1)
 
     out["long_entry"] = out["close"] > upper
-    out["exit_signal"] = out["close"] < lower
+    out["short_entry"] = out["close"] < lower_entry
+    out["exit_signal"] = out["close"] < lower_exit
     return out
 
 
