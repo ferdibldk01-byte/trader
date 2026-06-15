@@ -36,7 +36,7 @@ def make_exchange(market_type: str = "spot") -> ccxt.binance:
 # Veri kaynağı önceliği. Binance erişilemezse (coğrafi engel) sıradakine geçilir.
 # ÖNEMLİ: Kaynak SADECE BİR KEZ seçilir ve TÜM coinler için aynısı kullanılır.
 # Böylece her coin farklı borsadan gelip fiyat tutarsızlığı OLUŞMAZ.
-_SOURCE_ORDER = ["binance", "okx", "bybit", "kucoin", "gateio"]
+_SOURCE_ORDER = ["binance", "bybit", "kucoin", "okx", "gate"]
 
 # Süreç boyunca seçilen tek kaynak (borsa adı). Tutarlılık için cache'lenir.
 SELECTED_SOURCE: str | None = None
@@ -77,18 +77,27 @@ def _select_source(market_type: str = "spot"):
 
 
 def _paginate(exchange, symbol: str, timeframe: str, days: int) -> list[list]:
-    """Bir borsadan sayfalama yaparak geçmiş mumları toplar."""
+    """Bir borsadan sayfalama yaparak geçmiş mumları toplar.
+
+    ÖNEMLİ: Bazı borsalar tek istekte az mum verir (OKX ~300, Binance 1000).
+    Bu yüzden "batch < 1000" ile DURMAYIZ — ŞİMDİYE ulaşana kadar ileri
+    sayfalanırız. Aksi halde veri haftalarca eski kalır (yanlış fiyat!).
+    """
     timeframe_ms = exchange.parse_timeframe(timeframe) * 1000
-    since = exchange.milliseconds() - days * 24 * 60 * 60 * 1000
+    now = exchange.milliseconds()
+    cursor = now - days * 24 * 60 * 60 * 1000
     all_rows: list[list] = []
-    cursor = since
-    while True:
+
+    while cursor < now:
         batch = exchange.fetch_ohlcv(symbol, timeframe, since=cursor, limit=1000)
         if not batch:
             break
         all_rows += batch
-        cursor = batch[-1][0] + timeframe_ms
-        if len(batch) < 1000:
+        last_ts = batch[-1][0]
+        if last_ts < cursor:   # ilerleme yok → sonsuz döngüyü önle
+            break
+        cursor = last_ts + timeframe_ms
+        if len(batch) < 2:
             break
         time.sleep(exchange.rateLimit / 1000)  # rate limit'e saygı
     return all_rows
