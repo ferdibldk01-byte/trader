@@ -47,6 +47,11 @@ def analyze_symbol(symbol: str, config: dict) -> Signal:
     df = fetch_ohlcv(symbol, config["timeframe"], days=60,
                      market_type=config["market_type"])
 
+    # Oluşmakta olan (yarım) son mumu at: sadece KAPANMIŞ mumla karar ver.
+    # Aksi halde fiyat/sinyal her dakika değişir (titreme, tutarsızlık, spam).
+    def _last_closed(frame):
+        return frame.iloc[-2] if len(frame) >= 2 else frame.iloc[-1]
+
     votes: dict[str, str] = {}
     longs = shorts = 0
     for st in STRATEGIES:
@@ -55,7 +60,7 @@ def analyze_symbol(symbol: str, config: dict) -> Signal:
         if sig.empty:
             votes[st] = "FLAT"
             continue
-        last = sig.iloc[-1]
+        last = _last_closed(sig)
         if bool(last.get("long_entry", False)):
             votes[st] = "LONG"; longs += 1
         elif bool(last.get("short_entry", False)):
@@ -71,7 +76,7 @@ def analyze_symbol(symbol: str, config: dict) -> Signal:
         direction, strength = "FLAT", 0
 
     ind = add_indicators(df, config["strategy"]).dropna()
-    last = ind.iloc[-1]
+    last = _last_closed(ind)
     price = float(last["close"])
     atr = float(last["atr"])
 

@@ -27,6 +27,7 @@ from src.broker import Broker
 from src.config import load_config, load_secrets
 from src.data import fetch_ohlcv, load_csv, save_csv
 from src.dca import DCAConfig, backtest_dca
+from src import data
 from src import notifier
 from src import scanner
 from src.optimize import grid_search, walk_forward
@@ -314,6 +315,8 @@ def _build_message(config: dict, signals: list, changes: list) -> str:
                      f"{stars}  ({_fmt_price(s.price)})")
 
     lines.append("")
+    src = data.SELECTED_SOURCE or "?"
+    lines.append(f"<i>📡 kaynak: {src} | {config['timeframe']} | kapanmış mum</i>")
     lines.append("<i>⚠️ Sinyal ≠ emir. SHORT futures gerektirir (kaldıraç=risk). "
                  "Garanti kâr yoktur.</i>")
     return "\n".join(lines)

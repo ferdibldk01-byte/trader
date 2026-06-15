@@ -33,9 +33,47 @@ def make_exchange(market_type: str = "spot") -> ccxt.binance:
     return exchange
 
 
-# Binance erişilemezse (coğrafi engel vb.) sırayla denenecek alternatif borsalar.
-# Hepsi USDT spot pariteleri sunar; sinyal göstergeleri için veri eşdeğerdir.
-_FALLBACK_EXCHANGES = ["okx", "bybit", "kucoin", "gateio"]
+# Veri kaynağı önceliği. Binance erişilemezse (coğrafi engel) sıradakine geçilir.
+# ÖNEMLİ: Kaynak SADECE BİR KEZ seçilir ve TÜM coinler için aynısı kullanılır.
+# Böylece her coin farklı borsadan gelip fiyat tutarsızlığı OLUŞMAZ.
+_SOURCE_ORDER = ["binance", "okx", "bybit", "kucoin", "gateio"]
+
+# Süreç boyunca seçilen tek kaynak (borsa adı). Tutarlılık için cache'lenir.
+SELECTED_SOURCE: str | None = None
+_selected_exchange = None
+
+
+def _make_source(name: str, market_type: str = "spot"):
+    """Verilen borsa için anahtarsız ccxt bağlantısı kurar."""
+    if name == "binance":
+        return make_exchange(market_type)
+    return getattr(ccxt, name)({"enableRateLimit": True})
+
+
+def _select_source(market_type: str = "spot"):
+    """Çalışan ilk veri kaynağını BİR KEZ seçer (BTC/USDT ile test ederek).
+
+    Seçilen kaynak süreç boyunca sabit kalır → tüm coinler aynı borsadan,
+    fiyatlar tutarlı.
+    """
+    global SELECTED_SOURCE, _selected_exchange
+    if _selected_exchange is not None:
+        return _selected_exchange
+
+    last_error: Exception | None = None
+    for name in _SOURCE_ORDER:
+        try:
+            ex = _make_source(name, market_type)
+            # Tek mumluk hızlı sağlık testi
+            probe = ex.fetch_ohlcv("BTC/USDT", "1h", limit=2)
+            if probe and len(probe) >= 1:
+                SELECTED_SOURCE = name
+                _selected_exchange = ex
+                return ex
+        except Exception as e:
+            last_error = e
+            continue
+    raise RuntimeError(f"Hiçbir veri kaynağı erişilebilir değil. Son hata: {last_error}")
 
 
 def _paginate(exchange, symbol: str, timeframe: str, days: int) -> list[list]:
@@ -64,37 +102,17 @@ def fetch_ohlcv(
 ) -> pd.DataFrame:
     """Belirtilen coin için geçmiş mum verisini DataFrame olarak getirir.
 
-    Önce Binance'i (coğrafi-engelsiz sunucu) dener. Erişilemezse otomatik
-    olarak alternatif borsalara (OKX, Bybit, ...) geçer. Böylece hangi
-    bölgede/sunucuda çalışırsa çalışsın veri bulur.
+    TÜM coinler için TEK ortak kaynak kullanılır (tutarlı fiyatlar).
+    Binance erişilemezse otomatik olarak tek bir alternatif borsaya geçilir.
 
     Sütunlar: timestamp (index), open, high, low, close, volume
     """
-    last_error: Exception | None = None
-    all_rows: list[list] = []
-
-    # 1) Önce Binance
-    try:
-        all_rows = _paginate(make_exchange(market_type), symbol, timeframe, days)
-    except Exception as e:
-        last_error = e
-        all_rows = []
-
-    # 2) Binance boş/başarısızsa alternatif borsaları sırayla dene
-    if not all_rows:
-        for name in _FALLBACK_EXCHANGES:
-            try:
-                ex = getattr(ccxt, name)({"enableRateLimit": True})
-                all_rows = _paginate(ex, symbol, timeframe, days)
-                if all_rows:
-                    break
-            except Exception as e:
-                last_error = e
-                continue
+    exchange = _select_source(market_type)
+    all_rows = _paginate(exchange, symbol, timeframe, days)
 
     if not all_rows:
         raise RuntimeError(
-            f"{symbol} için hiçbir borsadan veri çekilemedi. Son hata: {last_error}"
+            f"{symbol} için {SELECTED_SOURCE} kaynağından veri gelmedi."
         )
 
     df = pd.DataFrame(
