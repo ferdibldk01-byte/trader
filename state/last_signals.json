@@ -1,0 +1,56 @@
+{
+  "BTC/USDT": {
+    "direction": "LONG",
+    "entry": 66368.15,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "ETH/USDT": {
+    "direction": "LONG",
+    "entry": 1811.35,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "BNB/USDT": {
+    "direction": "LONG",
+    "entry": 619.32,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "XRP/USDT": {
+    "direction": "LONG",
+    "entry": 1.25,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "ADA/USDT": {
+    "direction": "LONG",
+    "entry": 0.1794,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "DOT/USDT": {
+    "direction": "LONG",
+    "entry": 1.016,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "LINK/USDT": {
+    "direction": "LONG",
+    "entry": 8.354,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "NEAR/USDT": {
+    "direction": "LONG",
+    "entry": 2.445,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  },
+  "UNI/USDT": {
+    "direction": "LONG",
+    "entry": 2.782,
+    "strength": 1,
+    "updated": "2026-06-15 22:09"
+  }
+}
