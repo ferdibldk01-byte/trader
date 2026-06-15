@@ -16,11 +16,21 @@ DATA_DIR = ROOT / "data"
 
 
 def make_exchange(market_type: str = "spot") -> ccxt.binance:
-    """Veri çekmek için (anahtarsız) bir Binance bağlantısı oluşturur."""
-    return ccxt.binance({
+    """Veri çekmek için (anahtarsız) bir Binance bağlantısı oluşturur.
+
+    NOT: Binance ana API'si (api.binance.com) bazı bölgelerin/veri merkezi
+    IP'lerinin (örn. GitHub Actions = ABD) erişimini yasal olarak engeller.
+    Bu yüzden halka açık, coğrafi-engelsiz veri sunucusunu kullanırız:
+    data-api.binance.vision — aynı veri, anahtar gerekmez, her yerden çalışır.
+    """
+    exchange = ccxt.binance({
         "enableRateLimit": True,
         "options": {"defaultType": "future" if market_type == "futures" else "spot"},
     })
+    # Spot halka açık veriyi coğrafi-engelsiz aynasından çek
+    if market_type != "futures":
+        exchange.urls["api"]["public"] = "https://data-api.binance.vision/api/v3"
+    return exchange
 
 
 def fetch_ohlcv(
