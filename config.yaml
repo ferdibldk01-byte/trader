@@ -1,0 +1,79 @@
+# ============================================================
+#  Bot ayarları. Buradaki değerleri güvenle değiştirebilirsiniz.
+# ============================================================
+
+# Hangi piyasada işlem yapılacak: "spot" veya "futures"
+market_type: spot
+
+# İşlem yapılacak coinler (USDT pariteleri)
+# Not: Hepsi yüksek hacimli, bilinen coinler. Düşük hacimli coin = manipülasyon
+# riski. Daha fazla coin = daha çok sinyal AMA daha çok gürültü/yanlış alarm.
+symbols:
+  - BTC/USDT
+  - ETH/USDT
+  - BNB/USDT
+  - SOL/USDT
+  - XRP/USDT
+  - ADA/USDT
+  - DOGE/USDT
+  - AVAX/USDT
+  - DOT/USDT
+  - LINK/USDT
+  - TRX/USDT
+  - LTC/USDT
+  - BCH/USDT
+  - ATOM/USDT
+  - NEAR/USDT
+  - UNI/USDT
+
+# Zaman dilimi (mum periyodu): 15m, 1h, 4h, 1d
+# 1h = her saat yeni mum; 30 dk'lık sinyal taramasına en uygun denge.
+timeframe: 1h
+
+# --- Risk yönetimi (en önemli kısım) ---
+risk:
+  # Her işlemde sermayenin yüzde kaçı riske atılır (1.0 = %1). Düşük tut!
+  risk_per_trade_pct: 1.0
+  # Aynı anda en fazla kaç açık pozisyon
+  max_open_positions: 2
+  # Stop-loss mesafesi = ATR * bu katsayı
+  atr_stop_multiplier: 2.0
+  # Kâr-al hedefi = risk mesafesinin kaç katı (2.0 = 1 risk için 2 kazanç hedefi)
+  take_profit_rr: 2.0
+  # Toplam sermayenin yüzde kaçı bir günde kaybedilince bot durur (devre kesici)
+  daily_max_loss_pct: 5.0
+
+# --- Strateji parametreleri ---
+strategy:
+  ema_fast: 50
+  ema_slow: 200
+  rsi_period: 14
+  rsi_overbought: 70
+  adx_period: 14
+  adx_min: 25          # ADX bu değerin altındaysa = zayıf trend = işlem yok
+  atr_period: 14
+
+# --- Futures'a özel (sadece market_type: futures iken kullanılır) ---
+futures:
+  leverage: 1          # Başlangıçta 1 (kaldıraçsız gibi). DİKKATLE artırın.
+
+# --- DCA bot ayarları (3Commas tarzı) ---
+# Bu değerler ~2600 backtest'lik out-of-sample araştırmadan çıkan en sağlam set.
+# Araştırma motoru: python -m src.research (veya research.py)
+dca:
+  base_order: 100          # ilk alım (USDT)
+  safety_order: 100        # ilk safety order (USDT)
+  max_safety_orders: 4     # en fazla kaç kez aşağı doğru alım (3-5 en sağlam)
+  price_deviation_pct: 2.0 # ilk safety order için gereken düşüş %
+  safety_step_scale: 1.5   # her adımda aralık katsayısı
+  safety_volume_scale: 1.5 # her adımda alım miktarı katsayısı
+  take_profit_pct: 4.0     # ortalama maliyetin % kaç üstünde sat (küçük TP komisyona yenilir)
+  use_trend_filter: true   # düşüş trendinde yeni deal açma
+  trend_ema_period: 200    # fiyat bu EMA üstündeyse "yukarı trend"
+  stop_loss_pct: 12.0      # ZORUNLU: ortalama -%12'de zararı kabul et, dibe kilitlenme
+
+# --- Backtest ayarları ---
+backtest:
+  initial_balance: 1000   # USDT (sanal)
+  fee_pct: 0.1            # Binance komisyonu (~%0.1)
+  history_days: 500       # Kaç günlük geçmiş veri çekilsin

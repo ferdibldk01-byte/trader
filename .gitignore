@@ -1,0 +1,17 @@
+# API anahtarlarınızı ASLA paylaşmayın
+.env
+*.key
+*.secret
+
+# Veri ve loglar
+data/*.csv
+data/*.parquet
+logs/*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
