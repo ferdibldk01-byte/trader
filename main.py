@@ -243,18 +243,29 @@ def cmd_signals(config: dict) -> None:
     """Tüm coinleri tarar, sinyalleri ekrana yazar VE Telegram'a gönderir."""
     lines = ["📊 <b>Trader Bot Sinyalleri</b>",
              f"<i>{config['timeframe']} | trend takibi</i>", ""]
+    ok_count = 0
+    errors: list[str] = []
     for symbol in config["symbols"]:
         try:
             a = _analyze_symbol(symbol, config)
         except Exception as e:
             log.warning("%s analiz edilemedi: %s", symbol, e)
+            errors.append(f"{symbol}: {type(e).__name__}: {e}")
             continue
+        ok_count += 1
         line = (f"{a['emoji']} <b>{a['symbol']}</b> → {a['action']}\n"
                 f"   fiyat {a['price']:.4f} | RSI {a['rsi']:.0f} | "
                 f"ADX {a['adx']:.0f} | trend {a['trend']}")
         lines.append(line)
         print(f"{a['emoji']} {a['symbol']:12} {a['action']:14} "
               f"fiyat={a['price']:.4f} RSI={a['rsi']:.0f} ADX={a['adx']:.0f}")
+
+    # Hiç coin işlenemediyse: sessiz kalma, gerçek hatayı bildir (teşhis için)
+    if ok_count == 0:
+        diag = errors[0] if errors else "bilinmeyen sebep"
+        lines.append("⚠️ <b>Hiçbir coin verisi çekilemedi.</b>")
+        lines.append(f"Sebep: <code>{diag}</code>")
+        print("HATA TEŞHİSİ — ilk hata:", diag)
 
     message = "\n".join(lines)
     if notifier.is_configured():

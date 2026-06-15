@@ -33,20 +33,15 @@ def make_exchange(market_type: str = "spot") -> ccxt.binance:
     return exchange
 
 
-def fetch_ohlcv(
-    symbol: str,
-    timeframe: str = "4h",
-    days: int = 500,
-    market_type: str = "spot",
-) -> pd.DataFrame:
-    """Belirtilen coin için geçmiş mum verisini DataFrame olarak getirir.
+# Binance erişilemezse (coğrafi engel vb.) sırayla denenecek alternatif borsalar.
+# Hepsi USDT spot pariteleri sunar; sinyal göstergeleri için veri eşdeğerdir.
+_FALLBACK_EXCHANGES = ["okx", "bybit", "kucoin", "gateio"]
 
-    Sütunlar: timestamp (index), open, high, low, close, volume
-    """
-    exchange = make_exchange(market_type)
+
+def _paginate(exchange, symbol: str, timeframe: str, days: int) -> list[list]:
+    """Bir borsadan sayfalama yaparak geçmiş mumları toplar."""
     timeframe_ms = exchange.parse_timeframe(timeframe) * 1000
     since = exchange.milliseconds() - days * 24 * 60 * 60 * 1000
-
     all_rows: list[list] = []
     cursor = since
     while True:
@@ -58,6 +53,49 @@ def fetch_ohlcv(
         if len(batch) < 1000:
             break
         time.sleep(exchange.rateLimit / 1000)  # rate limit'e saygı
+    return all_rows
+
+
+def fetch_ohlcv(
+    symbol: str,
+    timeframe: str = "4h",
+    days: int = 500,
+    market_type: str = "spot",
+) -> pd.DataFrame:
+    """Belirtilen coin için geçmiş mum verisini DataFrame olarak getirir.
+
+    Önce Binance'i (coğrafi-engelsiz sunucu) dener. Erişilemezse otomatik
+    olarak alternatif borsalara (OKX, Bybit, ...) geçer. Böylece hangi
+    bölgede/sunucuda çalışırsa çalışsın veri bulur.
+
+    Sütunlar: timestamp (index), open, high, low, close, volume
+    """
+    last_error: Exception | None = None
+    all_rows: list[list] = []
+
+    # 1) Önce Binance
+    try:
+        all_rows = _paginate(make_exchange(market_type), symbol, timeframe, days)
+    except Exception as e:
+        last_error = e
+        all_rows = []
+
+    # 2) Binance boş/başarısızsa alternatif borsaları sırayla dene
+    if not all_rows:
+        for name in _FALLBACK_EXCHANGES:
+            try:
+                ex = getattr(ccxt, name)({"enableRateLimit": True})
+                all_rows = _paginate(ex, symbol, timeframe, days)
+                if all_rows:
+                    break
+            except Exception as e:
+                last_error = e
+                continue
+
+    if not all_rows:
+        raise RuntimeError(
+            f"{symbol} için hiçbir borsadan veri çekilemedi. Son hata: {last_error}"
+        )
 
     df = pd.DataFrame(
         all_rows, columns=["timestamp", "open", "high", "low", "close", "volume"]
