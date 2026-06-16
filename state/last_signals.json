@@ -42,16 +42,16 @@
     "updated": "2026-06-16 18:14"
   },
   "NEAR/USDT": {
-    "direction": "LONG",
-    "entry": 2.37,
-    "strength": 1,
-    "updated": "2026-06-16 21:25"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-16 23:00"
   },
   "UNI/USDT": {
-    "direction": "LONG",
-    "entry": 3.073,
-    "strength": 1,
-    "updated": "2026-06-16 13:09"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-16 23:00"
   },
   "SOL/USDT": {
     "direction": "FLAT",
