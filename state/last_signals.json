@@ -88,5 +88,11 @@
     "entry": 1.804,
     "strength": 1,
     "updated": "2026-06-18 20:09"
+  },
+  "LTC/USDT": {
+    "direction": "SHORT",
+    "entry": 43.76,
+    "strength": 1,
+    "updated": "2026-06-18 22:29"
   }
 }
