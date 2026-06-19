@@ -54,10 +54,10 @@
     "updated": "2026-06-18 11:05"
   },
   "SOL/USDT": {
-    "direction": "SHORT",
-    "entry": 68.62,
-    "strength": 1,
-    "updated": "2026-06-19 13:53"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-19 21:41"
   },
   "DOGE/USDT": {
     "direction": "SHORT",
@@ -78,10 +78,10 @@
     "updated": "2026-06-19 16:27"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-19 20:11"
+    "direction": "SHORT",
+    "entry": 5.933,
+    "strength": 1,
+    "updated": "2026-06-19 21:41"
   },
   "ATOM/USDT": {
     "direction": "SHORT",
