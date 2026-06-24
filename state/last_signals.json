@@ -42,10 +42,10 @@
     "updated": "2026-06-24 21:07"
   },
   "NEAR/USDT": {
-    "direction": "SHORT",
-    "entry": 1.887,
-    "strength": 1,
-    "updated": "2026-06-24 17:25"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-24 23:57"
   },
   "UNI/USDT": {
     "direction": "FLAT",
