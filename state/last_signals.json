@@ -1,33 +1,33 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 60956.0,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 1613.63,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 563.2,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 15:16"
+    "direction": "SHORT",
+    "entry": 1.0748,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 0.1452,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "DOT/USDT": {
     "direction": "SHORT",
@@ -36,10 +36,10 @@
     "updated": "2026-06-24 17:25"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 7.396,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "NEAR/USDT": {
     "direction": "SHORT",
@@ -60,10 +60,10 @@
     "updated": "2026-06-24 17:25"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 0.07559,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   },
   "BCH/USDT": {
     "direction": "SHORT",
@@ -90,9 +90,9 @@
     "updated": "2026-06-24 19:08"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-24 19:08"
+    "direction": "SHORT",
+    "entry": 40.78,
+    "strength": 1,
+    "updated": "2026-06-24 21:07"
   }
 }
