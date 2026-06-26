@@ -6,10 +6,10 @@
     "updated": "2026-06-26 09:31"
   },
   "ETH/USDT": {
-    "direction": "SHORT",
-    "entry": 1555.69,
-    "strength": 1,
-    "updated": "2026-06-26 06:00"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-26 21:02"
   },
   "BNB/USDT": {
     "direction": "FLAT",
