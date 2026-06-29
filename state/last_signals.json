@@ -1,27 +1,27 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 59956.05,
-    "strength": 1,
-    "updated": "2026-06-29 12:56"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-06-29 18:57"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-29 16:34"
+    "direction": "LONG",
+    "entry": 1628.03,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "BNB/USDT": {
-    "direction": "SHORT",
-    "entry": 548.45,
+    "direction": "LONG",
+    "entry": 561.12,
     "strength": 1,
-    "updated": "2026-06-28 20:15"
+    "updated": "2026-06-29 18:57"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-29 03:42"
+    "direction": "SHORT",
+    "entry": 1.0657,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -30,10 +30,10 @@
     "updated": "2026-06-29 08:49"
   },
   "DOT/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-29 08:49"
+    "direction": "LONG",
+    "entry": 0.835,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "LINK/USDT": {
     "direction": "FLAT",
@@ -54,22 +54,22 @@
     "updated": "2026-06-27 19:02"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-27 22:53"
+    "direction": "LONG",
+    "entry": 75.31,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.07386,
-    "strength": 2,
-    "updated": "2026-06-28 06:41"
+    "direction": "LONG",
+    "entry": 0.07391,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-06-29 08:49"
+    "direction": "LONG",
+    "entry": 201.2,
+    "strength": 1,
+    "updated": "2026-06-29 18:57"
   },
   "TRX/USDT": {
     "direction": "FLAT",
