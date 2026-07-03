@@ -18,16 +18,16 @@
     "updated": "2026-07-03 20:09"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.1319,
-    "strength": 1,
-    "updated": "2026-07-03 20:09"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-03 21:38"
   },
   "ADA/USDT": {
-    "direction": "LONG",
-    "entry": 0.1743,
-    "strength": 1,
-    "updated": "2026-07-03 17:11"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-03 21:38"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-07-02 15:38"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-03 17:11"
+    "direction": "LONG",
+    "entry": 0.07801,
+    "strength": 1,
+    "updated": "2026-07-03 21:38"
   },
   "BCH/USDT": {
     "direction": "LONG",
@@ -72,10 +72,10 @@
     "updated": "2026-07-01 20:21"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-03 13:19"
+    "direction": "LONG",
+    "entry": 0.3221,
+    "strength": 1,
+    "updated": "2026-07-03 21:38"
   },
   "AVAX/USDT": {
     "direction": "LONG",
