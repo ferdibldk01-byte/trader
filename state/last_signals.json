@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 62578.0,
-    "strength": 1,
-    "updated": "2026-07-03 23:55"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-04 20:04"
   },
   "ETH/USDT": {
     "direction": "FLAT",
