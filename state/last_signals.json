@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-08 11:41"
+    "direction": "LONG",
+    "entry": 62953.4,
+    "strength": 1,
+    "updated": "2026-07-09 10:28"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-07-09 06:33"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.0992,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-09 10:28"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -36,16 +36,16 @@
     "updated": "2026-07-09 06:33"
   },
   "LINK/USDT": {
-    "direction": "LONG",
-    "entry": 7.725,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
-  },
-  "NEAR/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-07-09 06:33"
+    "updated": "2026-07-09 10:28"
+  },
+  "NEAR/USDT": {
+    "direction": "SHORT",
+    "entry": 1.914,
+    "strength": 1,
+    "updated": "2026-07-09 10:28"
   },
   "UNI/USDT": {
     "direction": "FLAT",
@@ -66,22 +66,22 @@
     "updated": "2026-07-09 06:33"
   },
   "BCH/USDT": {
-    "direction": "LONG",
-    "entry": 237.5,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-09 10:28"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3312,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-09 10:28"
   },
   "AVAX/USDT": {
-    "direction": "LONG",
-    "entry": 6.602,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-09 10:28"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-08 11:41"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 44.18,
-    "strength": 1,
-    "updated": "2026-07-09 06:33"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-09 10:28"
   }
 }
