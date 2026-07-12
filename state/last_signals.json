@@ -48,10 +48,10 @@
     "updated": "2026-07-12 21:38"
   },
   "UNI/USDT": {
-    "direction": "LONG",
-    "entry": 3.706,
-    "strength": 1,
-    "updated": "2026-07-12 21:38"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-12 22:37"
   },
   "SOL/USDT": {
     "direction": "FLAT",
