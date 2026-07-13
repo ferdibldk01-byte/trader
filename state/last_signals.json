@@ -66,16 +66,16 @@
     "updated": "2026-07-13 19:56"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-13 19:56"
+    "direction": "SHORT",
+    "entry": 234.2,
+    "strength": 1,
+    "updated": "2026-07-13 22:43"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-13 14:00"
+    "direction": "SHORT",
+    "entry": 0.3251,
+    "strength": 1,
+    "updated": "2026-07-13 22:43"
   },
   "AVAX/USDT": {
     "direction": "SHORT",
