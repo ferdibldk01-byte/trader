@@ -18,10 +18,10 @@
     "updated": "2026-07-14 20:04"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.1153,
-    "strength": 1,
-    "updated": "2026-07-14 20:04"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-14 21:28"
   },
   "ADA/USDT": {
     "direction": "FLAT",
