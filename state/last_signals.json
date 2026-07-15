@@ -6,10 +6,10 @@
     "updated": "2026-07-15 03:42"
   },
   "ETH/USDT": {
-    "direction": "LONG",
-    "entry": 1919.62,
-    "strength": 1,
-    "updated": "2026-07-15 17:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-15 18:36"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -78,10 +78,10 @@
     "updated": "2026-07-15 17:14"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-14 15:54"
+    "direction": "LONG",
+    "entry": 6.726,
+    "strength": 1,
+    "updated": "2026-07-15 18:36"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
