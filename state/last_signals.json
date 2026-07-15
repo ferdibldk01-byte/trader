@@ -84,10 +84,10 @@
     "updated": "2026-07-15 18:36"
   },
   "ATOM/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-15 21:27"
+    "direction": "SHORT",
+    "entry": 1.559,
+    "strength": 1,
+    "updated": "2026-07-15 22:28"
   },
   "LTC/USDT": {
     "direction": "LONG",
