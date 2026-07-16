@@ -18,10 +18,10 @@
     "updated": "2026-07-15 10:41"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.114,
-    "strength": 1,
-    "updated": "2026-07-15 17:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-16 03:55"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-16 00:54"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 45.11,
-    "strength": 1,
-    "updated": "2026-07-14 22:29"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-16 03:55"
   }
 }
