@@ -12,10 +12,10 @@
     "updated": "2026-07-17 11:01"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-17 11:01"
+    "direction": "SHORT",
+    "entry": 564.78,
+    "strength": 1,
+    "updated": "2026-07-17 12:40"
   },
   "XRP/USDT": {
     "direction": "SHORT",
@@ -66,10 +66,10 @@
     "updated": "2026-07-17 04:38"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-17 01:28"
+    "direction": "SHORT",
+    "entry": 218.4,
+    "strength": 1,
+    "updated": "2026-07-17 12:40"
   },
   "TRX/USDT": {
     "direction": "SHORT",
