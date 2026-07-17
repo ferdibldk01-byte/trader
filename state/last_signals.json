@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-16 10:49"
+    "direction": "LONG",
+    "entry": 64049.86,
+    "strength": 1,
+    "updated": "2026-07-17 18:01"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -24,10 +24,10 @@
     "updated": "2026-07-17 09:25"
   },
   "ADA/USDT": {
-    "direction": "LONG",
-    "entry": 0.164,
-    "strength": 1,
-    "updated": "2026-07-17 16:58"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-17 18:01"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -78,10 +78,10 @@
     "updated": "2026-07-17 14:24"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.558,
-    "strength": 1,
-    "updated": "2026-07-16 23:47"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-17 18:01"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
