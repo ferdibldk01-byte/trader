@@ -30,10 +30,10 @@
     "updated": "2026-07-18 15:27"
   },
   "DOT/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-19 19:39"
+    "direction": "SHORT",
+    "entry": 0.819,
+    "strength": 1,
+    "updated": "2026-07-19 23:45"
   },
   "LINK/USDT": {
     "direction": "FLAT",
