@@ -30,16 +30,16 @@
     "updated": "2026-07-18 15:27"
   },
   "DOT/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-20 15:25"
+    "direction": "LONG",
+    "entry": 0.829,
+    "strength": 1,
+    "updated": "2026-07-20 21:38"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-20 18:48"
+    "direction": "LONG",
+    "entry": 8.57,
+    "strength": 1,
+    "updated": "2026-07-20 21:38"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -54,10 +54,10 @@
     "updated": "2026-07-20 20:16"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-20 18:48"
+    "direction": "LONG",
+    "entry": 77.88,
+    "strength": 1,
+    "updated": "2026-07-20 21:38"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
