@@ -12,10 +12,10 @@
     "updated": "2026-07-20 16:51"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 576.39,
-    "strength": 1,
-    "updated": "2026-07-21 07:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-21 11:46"
   },
   "XRP/USDT": {
     "direction": "LONG",
@@ -78,10 +78,10 @@
     "updated": "2026-07-20 11:19"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-21 09:59"
+    "direction": "LONG",
+    "entry": 6.628,
+    "strength": 1,
+    "updated": "2026-07-21 11:46"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
