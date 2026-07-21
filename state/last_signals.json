@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-20 18:48"
+    "direction": "LONG",
+    "entry": 66226.44,
+    "strength": 1,
+    "updated": "2026-07-21 09:59"
   },
   "ETH/USDT": {
     "direction": "LONG",
@@ -18,22 +18,22 @@
     "updated": "2026-07-21 07:27"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-21 07:27"
+    "direction": "LONG",
+    "entry": 1.1333,
+    "strength": 1,
+    "updated": "2026-07-21 09:59"
   },
   "ADA/USDT": {
+    "direction": "LONG",
+    "entry": 0.1745,
+    "strength": 1,
+    "updated": "2026-07-21 09:59"
+  },
+  "DOT/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-07-21 07:27"
-  },
-  "DOT/USDT": {
-    "direction": "LONG",
-    "entry": 0.838,
-    "strength": 1,
-    "updated": "2026-07-21 04:41"
+    "updated": "2026-07-21 09:59"
   },
   "LINK/USDT": {
     "direction": "LONG",
@@ -42,16 +42,16 @@
     "updated": "2026-07-20 21:38"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-21 07:27"
+    "direction": "LONG",
+    "entry": 2.003,
+    "strength": 1,
+    "updated": "2026-07-21 09:59"
   },
   "UNI/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-21 04:41"
+    "direction": "LONG",
+    "entry": 3.716,
+    "strength": 1,
+    "updated": "2026-07-21 09:59"
   },
   "SOL/USDT": {
     "direction": "LONG",
@@ -66,10 +66,10 @@
     "updated": "2026-07-20 18:48"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 223.2,
-    "strength": 1,
-    "updated": "2026-07-21 07:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-21 09:59"
   },
   "TRX/USDT": {
     "direction": "FLAT",
@@ -78,10 +78,10 @@
     "updated": "2026-07-20 11:19"
   },
   "AVAX/USDT": {
-    "direction": "LONG",
-    "entry": 6.675,
-    "strength": 1,
-    "updated": "2026-07-21 07:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-21 09:59"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
