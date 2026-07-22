@@ -6,10 +6,10 @@
     "updated": "2026-07-22 09:06"
   },
   "ETH/USDT": {
-    "direction": "LONG",
-    "entry": 1902.34,
-    "strength": 1,
-    "updated": "2026-07-20 16:51"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-22 12:53"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -24,10 +24,10 @@
     "updated": "2026-07-22 11:24"
   },
   "ADA/USDT": {
-    "direction": "LONG",
-    "entry": 0.1725,
-    "strength": 1,
-    "updated": "2026-07-22 09:06"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-22 12:53"
   },
   "DOT/USDT": {
     "direction": "FLAT",
