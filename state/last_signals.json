@@ -78,10 +78,10 @@
     "updated": "2026-07-25 20:04"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-25 18:49"
+    "direction": "LONG",
+    "entry": 6.754,
+    "strength": 1,
+    "updated": "2026-07-25 22:15"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-25 20:04"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-25 21:14"
+    "direction": "LONG",
+    "entry": 46.55,
+    "strength": 1,
+    "updated": "2026-07-25 22:15"
   }
 }
