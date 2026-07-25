@@ -24,10 +24,10 @@
     "updated": "2026-07-24 20:44"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-25 09:16"
+    "direction": "SHORT",
+    "entry": 0.1624,
+    "strength": 1,
+    "updated": "2026-07-25 10:50"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-23 23:49"
   },
   "LTC/USDT": {
-    "direction": "SHORT",
-    "entry": 45.87,
-    "strength": 1,
-    "updated": "2026-07-25 09:16"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 10:50"
   }
 }
