@@ -90,9 +90,9 @@
     "updated": "2026-07-25 20:04"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 46.48,
-    "strength": 1,
-    "updated": "2026-07-25 20:04"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 21:14"
   }
 }
