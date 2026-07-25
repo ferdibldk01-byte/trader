@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 64073.61,
-    "strength": 1,
-    "updated": "2026-07-25 01:28"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 20:04"
   },
   "ETH/USDT": {
-    "direction": "LONG",
-    "entry": 1873.06,
-    "strength": 1,
-    "updated": "2026-07-25 18:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 20:04"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-07-25 15:39"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-25 18:49"
+    "direction": "SHORT",
+    "entry": 1.1007,
+    "strength": 1,
+    "updated": "2026-07-25 20:04"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -54,16 +54,16 @@
     "updated": "2026-07-25 07:09"
   },
   "SOL/USDT": {
+    "direction": "SHORT",
+    "entry": 74.57,
+    "strength": 1,
+    "updated": "2026-07-25 20:04"
+  },
+  "DOGE/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-07-25 18:49"
-  },
-  "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.07219,
-    "strength": 1,
-    "updated": "2026-07-25 17:48"
+    "updated": "2026-07-25 20:04"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -72,10 +72,10 @@
     "updated": "2026-07-25 12:58"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3323,
-    "strength": 1,
-    "updated": "2026-07-25 18:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 20:04"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
@@ -84,15 +84,15 @@
     "updated": "2026-07-25 18:49"
   },
   "ATOM/USDT": {
-    "direction": "SHORT",
-    "entry": 1.423,
-    "strength": 1,
-    "updated": "2026-07-23 23:49"
-  },
-  "LTC/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-07-25 10:50"
+    "updated": "2026-07-25 20:04"
+  },
+  "LTC/USDT": {
+    "direction": "LONG",
+    "entry": 46.48,
+    "strength": 1,
+    "updated": "2026-07-25 20:04"
   }
 }
