@@ -18,10 +18,10 @@
     "updated": "2026-07-25 15:39"
   },
   "XRP/USDT": {
-    "direction": "SHORT",
-    "entry": 1.0894,
-    "strength": 1,
-    "updated": "2026-07-24 20:44"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 16:43"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -78,10 +78,10 @@
     "updated": "2026-07-25 09:16"
   },
   "AVAX/USDT": {
-    "direction": "LONG",
-    "entry": 6.478,
-    "strength": 1,
-    "updated": "2026-07-25 14:29"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-25 16:43"
   },
   "ATOM/USDT": {
     "direction": "SHORT",
