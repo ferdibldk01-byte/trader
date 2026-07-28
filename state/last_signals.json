@@ -60,10 +60,10 @@
     "updated": "2026-07-28 07:31"
   },
   "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.07047,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 17:52"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -72,10 +72,10 @@
     "updated": "2026-07-28 16:28"
   },
   "TRX/USDT": {
-    "direction": "SHORT",
-    "entry": 0.3252,
-    "strength": 1,
-    "updated": "2026-07-28 07:31"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 17:52"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
