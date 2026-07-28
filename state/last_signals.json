@@ -24,34 +24,34 @@
     "updated": "2026-07-27 23:54"
   },
   "ADA/USDT": {
-    "direction": "SHORT",
-    "entry": 0.159,
-    "strength": 1,
-    "updated": "2026-07-27 20:13"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "DOT/USDT": {
-    "direction": "SHORT",
-    "entry": 0.756,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "LINK/USDT": {
-    "direction": "SHORT",
-    "entry": 8.434,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "NEAR/USDT": {
-    "direction": "SHORT",
-    "entry": 1.702,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "UNI/USDT": {
-    "direction": "SHORT",
-    "entry": 3.783,
-    "strength": 1,
-    "updated": "2026-07-27 22:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "SOL/USDT": {
     "direction": "SHORT",
@@ -66,10 +66,10 @@
     "updated": "2026-07-27 23:54"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 212.2,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "TRX/USDT": {
     "direction": "SHORT",
@@ -78,16 +78,16 @@
     "updated": "2026-07-27 22:49"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.45,
-    "strength": 1,
-    "updated": "2026-07-27 23:54"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "ATOM/USDT": {
-    "direction": "SHORT",
-    "entry": 1.338,
-    "strength": 1,
-    "updated": "2026-07-27 22:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-28 01:23"
   },
   "LTC/USDT": {
     "direction": "FLAT",
