@@ -72,10 +72,10 @@
     "updated": "2026-07-29 04:40"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-29 12:27"
+    "direction": "SHORT",
+    "entry": 0.3263,
+    "strength": 1,
+    "updated": "2026-07-29 18:54"
   },
   "AVAX/USDT": {
     "direction": "SHORT",
