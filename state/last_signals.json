@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 63640.63,
-    "strength": 1,
-    "updated": "2026-07-28 07:31"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-29 04:40"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -18,16 +18,16 @@
     "updated": "2026-07-28 16:28"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.0794,
+    "direction": "SHORT",
+    "entry": 1.0714,
     "strength": 1,
-    "updated": "2026-07-29 01:24"
+    "updated": "2026-07-29 04:40"
   },
   "ADA/USDT": {
-    "direction": "SHORT",
-    "entry": 0.1628,
-    "strength": 1,
-    "updated": "2026-07-29 01:24"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-29 04:40"
   },
   "DOT/USDT": {
     "direction": "SHORT",
@@ -36,10 +36,10 @@
     "updated": "2026-07-28 07:31"
   },
   "LINK/USDT": {
-    "direction": "LONG",
-    "entry": 8.474,
+    "direction": "SHORT",
+    "entry": 8.336,
     "strength": 1,
-    "updated": "2026-07-29 01:24"
+    "updated": "2026-07-29 04:40"
   },
   "NEAR/USDT": {
     "direction": "SHORT",
@@ -48,10 +48,10 @@
     "updated": "2026-07-28 14:56"
   },
   "UNI/USDT": {
-    "direction": "LONG",
-    "entry": 3.821,
-    "strength": 1,
-    "updated": "2026-07-28 12:19"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-29 04:40"
   },
   "SOL/USDT": {
     "direction": "SHORT",
@@ -66,10 +66,10 @@
     "updated": "2026-07-28 22:50"
   },
   "BCH/USDT": {
-    "direction": "LONG",
-    "entry": 215.5,
-    "strength": 1,
-    "updated": "2026-07-29 01:24"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-29 04:40"
   },
   "TRX/USDT": {
     "direction": "SHORT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-28 23:50"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-27 17:15"
+    "direction": "SHORT",
+    "entry": 45.32,
+    "strength": 1,
+    "updated": "2026-07-29 04:40"
   }
 }
