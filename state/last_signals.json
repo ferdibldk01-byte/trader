@@ -24,10 +24,10 @@
     "updated": "2026-07-30 18:15"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-30 16:59"
+    "direction": "LONG",
+    "entry": 0.1708,
+    "strength": 1,
+    "updated": "2026-07-30 21:08"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -42,10 +42,10 @@
     "updated": "2026-07-29 22:27"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-30 11:27"
+    "direction": "SHORT",
+    "entry": 1.687,
+    "strength": 1,
+    "updated": "2026-07-30 21:08"
   },
   "UNI/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-07-30 11:27"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-30 03:49"
+    "direction": "LONG",
+    "entry": 45.68,
+    "strength": 1,
+    "updated": "2026-07-30 21:08"
   }
 }
