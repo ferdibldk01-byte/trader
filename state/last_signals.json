@@ -66,10 +66,10 @@
     "updated": "2026-07-30 19:59"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-29 22:27"
+    "direction": "SHORT",
+    "entry": 207.5,
+    "strength": 1,
+    "updated": "2026-07-31 13:11"
   },
   "TRX/USDT": {
     "direction": "SHORT",
@@ -84,10 +84,10 @@
     "updated": "2026-07-29 20:07"
   },
   "ATOM/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-31 08:13"
+    "direction": "SHORT",
+    "entry": 1.243,
+    "strength": 1,
+    "updated": "2026-07-31 13:11"
   },
   "LTC/USDT": {
     "direction": "FLAT",
