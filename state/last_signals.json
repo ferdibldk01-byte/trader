@@ -54,10 +54,10 @@
     "updated": "2026-07-31 22:50"
   },
   "SOL/USDT": {
-    "direction": "SHORT",
-    "entry": 72.73,
-    "strength": 1,
-    "updated": "2026-07-31 22:50"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-07-31 23:54"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
