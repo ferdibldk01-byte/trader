@@ -24,10 +24,10 @@
     "updated": "2026-08-01 11:09"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-31 21:34"
+    "direction": "LONG",
+    "entry": 0.1749,
+    "strength": 1,
+    "updated": "2026-08-01 14:21"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -48,10 +48,10 @@
     "updated": "2026-07-31 08:13"
   },
   "UNI/USDT": {
-    "direction": "LONG",
-    "entry": 4.068,
-    "strength": 1,
-    "updated": "2026-08-01 12:32"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-01 14:21"
   },
   "SOL/USDT": {
     "direction": "FLAT",
@@ -72,10 +72,10 @@
     "updated": "2026-08-01 05:16"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-01 11:09"
+    "direction": "LONG",
+    "entry": 0.3283,
+    "strength": 1,
+    "updated": "2026-08-01 14:21"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
