@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-31 17:17"
+    "direction": "SHORT",
+    "entry": 62708.07,
+    "strength": 1,
+    "updated": "2026-08-01 18:52"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -12,16 +12,16 @@
     "updated": "2026-08-01 15:34"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 578.46,
-    "strength": 1,
-    "updated": "2026-08-01 17:51"
-  },
-  "XRP/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-01 15:34"
+    "updated": "2026-08-01 18:52"
+  },
+  "XRP/USDT": {
+    "direction": "SHORT",
+    "entry": 1.0593,
+    "strength": 2,
+    "updated": "2026-08-01 18:52"
   },
   "ADA/USDT": {
     "direction": "LONG",
@@ -48,16 +48,16 @@
     "updated": "2026-07-31 08:13"
   },
   "UNI/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-01 14:21"
+    "direction": "LONG",
+    "entry": 4.071,
+    "strength": 1,
+    "updated": "2026-08-01 18:52"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-07-31 23:54"
+    "direction": "SHORT",
+    "entry": 71.93,
+    "strength": 1,
+    "updated": "2026-08-01 18:52"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
@@ -66,22 +66,22 @@
     "updated": "2026-07-31 18:50"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-01 17:51"
+    "direction": "SHORT",
+    "entry": 207.9,
+    "strength": 1,
+    "updated": "2026-08-01 18:52"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3291,
-    "strength": 1,
-    "updated": "2026-08-01 17:51"
-  },
-  "AVAX/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-07-29 20:07"
+    "updated": "2026-08-01 18:52"
+  },
+  "AVAX/USDT": {
+    "direction": "SHORT",
+    "entry": 6.305,
+    "strength": 1,
+    "updated": "2026-08-01 18:52"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
