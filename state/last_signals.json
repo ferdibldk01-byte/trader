@@ -12,10 +12,10 @@
     "updated": "2026-08-02 10:59"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 586.24,
-    "strength": 1,
-    "updated": "2026-08-02 16:44"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-02 18:52"
   },
   "XRP/USDT": {
     "direction": "FLAT",
@@ -24,10 +24,10 @@
     "updated": "2026-08-02 10:59"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-02 15:34"
+    "direction": "LONG",
+    "entry": 0.1888,
+    "strength": 1,
+    "updated": "2026-08-02 18:52"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -48,10 +48,10 @@
     "updated": "2026-08-02 07:26"
   },
   "UNI/USDT": {
-    "direction": "LONG",
-    "entry": 4.186,
-    "strength": 1,
-    "updated": "2026-08-02 09:30"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-02 18:52"
   },
   "SOL/USDT": {
     "direction": "FLAT",
@@ -66,10 +66,10 @@
     "updated": "2026-07-31 18:50"
   },
   "BCH/USDT": {
-    "direction": "LONG",
-    "entry": 213.8,
-    "strength": 1,
-    "updated": "2026-08-02 17:52"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-02 18:52"
   },
   "TRX/USDT": {
     "direction": "FLAT",
