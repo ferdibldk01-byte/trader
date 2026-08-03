@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 62870.49,
-    "strength": 1,
-    "updated": "2026-08-03 04:56"
-  },
-  "ETH/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-02 23:25"
+    "updated": "2026-08-03 08:21"
+  },
+  "ETH/USDT": {
+    "direction": "SHORT",
+    "entry": 1843.97,
+    "strength": 1,
+    "updated": "2026-08-03 08:21"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -18,22 +18,22 @@
     "updated": "2026-08-03 04:56"
   },
   "XRP/USDT": {
-    "direction": "SHORT",
-    "entry": 1.0713,
-    "strength": 1,
-    "updated": "2026-08-03 04:56"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-03 08:21"
   },
   "ADA/USDT": {
-    "direction": "LONG",
-    "entry": 0.1888,
-    "strength": 1,
-    "updated": "2026-08-02 18:52"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-03 08:21"
   },
   "DOT/USDT": {
-    "direction": "LONG",
-    "entry": 0.797,
-    "strength": 1,
-    "updated": "2026-08-03 01:02"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-03 08:21"
   },
   "LINK/USDT": {
     "direction": "SHORT",
@@ -66,28 +66,28 @@
     "updated": "2026-08-03 04:56"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 210.8,
-    "strength": 2,
-    "updated": "2026-08-03 04:56"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-03 08:21"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-03 04:56"
+    "direction": "SHORT",
+    "entry": 0.3257,
+    "strength": 1,
+    "updated": "2026-08-03 08:21"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.427,
-    "strength": 1,
-    "updated": "2026-08-03 04:56"
-  },
-  "ATOM/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-02 23:25"
+    "updated": "2026-08-03 08:21"
+  },
+  "ATOM/USDT": {
+    "direction": "SHORT",
+    "entry": 1.273,
+    "strength": 1,
+    "updated": "2026-08-03 08:21"
   },
   "LTC/USDT": {
     "direction": "SHORT",
