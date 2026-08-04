@@ -12,10 +12,10 @@
     "updated": "2026-08-03 11:52"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 594.03,
-    "strength": 1,
-    "updated": "2026-08-04 15:15"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-04 17:10"
   },
   "XRP/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-04 12:52"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-03 16:44"
+    "direction": "LONG",
+    "entry": 44.64,
+    "strength": 1,
+    "updated": "2026-08-04 17:10"
   }
 }
