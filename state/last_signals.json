@@ -30,10 +30,10 @@
     "updated": "2026-08-05 15:53"
   },
   "DOT/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-06 01:23"
+    "direction": "LONG",
+    "entry": 0.825,
+    "strength": 1,
+    "updated": "2026-08-06 12:24"
   },
   "LINK/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-08-05 20:25"
   },
   "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.06906,
-    "strength": 1,
-    "updated": "2026-08-06 10:25"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-06 12:24"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -78,10 +78,10 @@
     "updated": "2026-08-04 20:48"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.526,
-    "strength": 1,
-    "updated": "2026-08-06 10:25"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-06 12:24"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
