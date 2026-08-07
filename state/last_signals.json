@@ -78,10 +78,10 @@
     "updated": "2026-08-04 20:48"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-06 12:24"
+    "direction": "SHORT",
+    "entry": 6.426,
+    "strength": 1,
+    "updated": "2026-08-07 03:23"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
