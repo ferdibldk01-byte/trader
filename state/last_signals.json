@@ -24,16 +24,16 @@
     "updated": "2026-08-07 08:05"
   },
   "ADA/USDT": {
-    "direction": "LONG",
-    "entry": 0.1939,
+    "direction": "SHORT",
+    "entry": 0.1971,
     "strength": 1,
-    "updated": "2026-08-06 14:42"
+    "updated": "2026-08-07 15:42"
   },
   "DOT/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-07 00:21"
+    "direction": "SHORT",
+    "entry": 0.807,
+    "strength": 1,
+    "updated": "2026-08-07 15:42"
   },
   "LINK/USDT": {
     "direction": "FLAT",
