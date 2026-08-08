@@ -12,16 +12,16 @@
     "updated": "2026-08-07 21:09"
   },
   "BNB/USDT": {
+    "direction": "LONG",
+    "entry": 598.18,
+    "strength": 1,
+    "updated": "2026-08-08 14:03"
+  },
+  "XRP/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-08 13:24"
-  },
-  "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.0411,
-    "strength": 1,
-    "updated": "2026-08-08 13:24"
+    "updated": "2026-08-08 14:03"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -72,10 +72,10 @@
     "updated": "2026-08-07 21:09"
   },
   "TRX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-08 12:23"
+    "direction": "LONG",
+    "entry": 0.3288,
+    "strength": 1,
+    "updated": "2026-08-08 14:03"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
