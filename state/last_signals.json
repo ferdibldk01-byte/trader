@@ -12,10 +12,10 @@
     "updated": "2026-08-11 04:46"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 612.21,
-    "strength": 1,
-    "updated": "2026-08-11 13:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-11 14:50"
   },
   "XRP/USDT": {
     "direction": "SHORT",
@@ -24,16 +24,16 @@
     "updated": "2026-08-11 10:23"
   },
   "ADA/USDT": {
-    "direction": "SHORT",
-    "entry": 0.187,
-    "strength": 1,
-    "updated": "2026-08-11 13:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-11 14:50"
   },
   "DOT/USDT": {
-    "direction": "SHORT",
-    "entry": 0.794,
-    "strength": 1,
-    "updated": "2026-08-11 13:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-11 14:50"
   },
   "LINK/USDT": {
     "direction": "FLAT",
@@ -42,16 +42,16 @@
     "updated": "2026-08-11 11:11"
   },
   "NEAR/USDT": {
-    "direction": "SHORT",
-    "entry": 1.582,
-    "strength": 1,
-    "updated": "2026-08-11 13:49"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-11 14:50"
   },
   "UNI/USDT": {
-    "direction": "SHORT",
-    "entry": 3.893,
-    "strength": 1,
-    "updated": "2026-08-11 12:05"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-11 14:50"
   },
   "SOL/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-08-10 18:10"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-11 11:11"
+    "direction": "LONG",
+    "entry": 0.07091,
+    "strength": 1,
+    "updated": "2026-08-11 14:50"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-10 19:27"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-11 13:49"
+    "direction": "SHORT",
+    "entry": 45.04,
+    "strength": 1,
+    "updated": "2026-08-11 14:50"
   }
 }
