@@ -36,10 +36,10 @@
     "updated": "2026-08-13 03:06"
   },
   "LINK/USDT": {
-    "direction": "LONG",
-    "entry": 8.873,
-    "strength": 1,
-    "updated": "2026-08-13 22:09"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-13 23:10"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
