@@ -36,10 +36,10 @@
     "updated": "2026-08-13 03:06"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-13 16:24"
+    "direction": "LONG",
+    "entry": 8.873,
+    "strength": 1,
+    "updated": "2026-08-13 22:09"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -84,10 +84,10 @@
     "updated": "2026-08-13 19:32"
   },
   "ATOM/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-13 21:14"
+    "direction": "LONG",
+    "entry": 1.511,
+    "strength": 1,
+    "updated": "2026-08-13 22:09"
   },
   "LTC/USDT": {
     "direction": "FLAT",
