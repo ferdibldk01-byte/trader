@@ -18,10 +18,10 @@
     "updated": "2026-08-12 10:50"
   },
   "XRP/USDT": {
-    "direction": "SHORT",
-    "entry": 1.0071,
-    "strength": 1,
-    "updated": "2026-08-13 03:06"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-13 05:15"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -42,10 +42,10 @@
     "updated": "2026-08-12 23:09"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-12 16:23"
+    "direction": "LONG",
+    "entry": 1.668,
+    "strength": 1,
+    "updated": "2026-08-13 05:15"
   },
   "UNI/USDT": {
     "direction": "SHORT",
