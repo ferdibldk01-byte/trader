@@ -66,10 +66,10 @@
     "updated": "2026-08-15 04:00"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 203.2,
-    "strength": 1,
-    "updated": "2026-08-15 19:13"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-15 20:09"
   },
   "TRX/USDT": {
     "direction": "FLAT",
