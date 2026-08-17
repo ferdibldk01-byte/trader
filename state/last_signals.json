@@ -72,10 +72,10 @@
     "updated": "2026-08-17 08:30"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.333,
-    "strength": 1,
-    "updated": "2026-08-17 09:09"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-17 10:03"
   },
   "AVAX/USDT": {
     "direction": "SHORT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-17 09:09"
   },
   "LTC/USDT": {
-    "direction": "SHORT",
-    "entry": 43.88,
-    "strength": 1,
-    "updated": "2026-08-17 09:09"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-17 10:03"
   }
 }
