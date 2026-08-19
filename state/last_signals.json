@@ -6,28 +6,28 @@
     "updated": "2026-08-19 17:17"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 2218.12,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 624.06,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 1.0993,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 0.1851,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -42,22 +42,22 @@
     "updated": "2026-08-19 20:14"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 19:24"
+    "direction": "LONG",
+    "entry": 1.722,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "UNI/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 18:17"
+    "direction": "LONG",
+    "entry": 3.632,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 83.72,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-19 19:24"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 17:17"
+    "direction": "LONG",
+    "entry": 46.62,
+    "strength": 1,
+    "updated": "2026-08-19 21:15"
   }
 }
