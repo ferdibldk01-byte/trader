@@ -54,16 +54,16 @@
     "updated": "2026-08-19 13:23"
   },
   "SOL/USDT": {
-    "direction": "LONG",
-    "entry": 77.32,
-    "strength": 1,
-    "updated": "2026-08-19 10:17"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-19 14:03"
   },
   "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.07063,
-    "strength": 1,
-    "updated": "2026-08-19 13:23"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-19 14:03"
   },
   "BCH/USDT": {
     "direction": "FLAT",
