@@ -12,10 +12,10 @@
     "updated": "2026-08-19 13:23"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-18 15:28"
+    "direction": "LONG",
+    "entry": 608.76,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "XRP/USDT": {
     "direction": "LONG",
@@ -24,10 +24,10 @@
     "updated": "2026-08-19 13:23"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-18 16:19"
+    "direction": "LONG",
+    "entry": 0.1765,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -42,34 +42,34 @@
     "updated": "2026-08-19 06:23"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-18 23:12"
+    "direction": "LONG",
+    "entry": 1.64,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "UNI/USDT": {
-    "direction": "SHORT",
-    "entry": 3.378,
-    "strength": 1,
-    "updated": "2026-08-19 13:23"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-19 15:28"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 14:03"
+    "direction": "LONG",
+    "entry": 80.89,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 14:03"
+    "direction": "LONG",
+    "entry": 0.07129,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-18 04:03"
+    "direction": "LONG",
+    "entry": 206.8,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   },
   "TRX/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-19 11:14"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-19 10:17"
+    "direction": "LONG",
+    "entry": 45.31,
+    "strength": 1,
+    "updated": "2026-08-19 15:28"
   }
 }
