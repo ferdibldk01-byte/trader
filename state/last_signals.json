@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 71592.1,
-    "strength": 1,
-    "updated": "2026-08-20 09:03"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 10:21"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -12,22 +12,22 @@
     "updated": "2026-08-19 23:13"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 625.75,
-    "strength": 1,
-    "updated": "2026-08-20 02:10"
-  },
-  "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.0992,
-    "strength": 1,
-    "updated": "2026-08-20 03:15"
-  },
-  "ADA/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-19 23:13"
+    "updated": "2026-08-20 10:21"
+  },
+  "XRP/USDT": {
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 10:21"
+  },
+  "ADA/USDT": {
+    "direction": "LONG",
+    "entry": 0.1894,
+    "strength": 1,
+    "updated": "2026-08-20 10:21"
   },
   "DOT/USDT": {
     "direction": "LONG",
@@ -36,10 +36,10 @@
     "updated": "2026-08-20 07:14"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-20 09:03"
+    "direction": "LONG",
+    "entry": 10.584,
+    "strength": 1,
+    "updated": "2026-08-20 10:21"
   },
   "NEAR/USDT": {
     "direction": "LONG",
@@ -54,16 +54,16 @@
     "updated": "2026-08-20 08:02"
   },
   "SOL/USDT": {
-    "direction": "LONG",
-    "entry": 87.53,
-    "strength": 1,
-    "updated": "2026-08-20 09:03"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 10:21"
   },
   "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.0748,
-    "strength": 1,
-    "updated": "2026-08-20 04:05"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 10:21"
   },
   "BCH/USDT": {
     "direction": "LONG",
@@ -78,10 +78,10 @@
     "updated": "2026-08-20 02:10"
   },
   "AVAX/USDT": {
-    "direction": "LONG",
-    "entry": 6.914,
-    "strength": 1,
-    "updated": "2026-08-20 09:03"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 10:21"
   },
   "ATOM/USDT": {
     "direction": "LONG",
