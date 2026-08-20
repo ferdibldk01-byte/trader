@@ -1,27 +1,27 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 72837.15,
-    "strength": 1,
-    "updated": "2026-08-20 17:24"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "ETH/USDT": {
-    "direction": "LONG",
-    "entry": 2344.48,
-    "strength": 1,
-    "updated": "2026-08-20 17:24"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "BNB/USDT": {
-    "direction": "LONG",
-    "entry": 652.56,
-    "strength": 1,
-    "updated": "2026-08-20 16:21"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.2209,
-    "strength": 1,
-    "updated": "2026-08-20 14:06"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "ADA/USDT": {
     "direction": "LONG",
@@ -60,22 +60,22 @@
     "updated": "2026-08-20 16:21"
   },
   "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.07847,
-    "strength": 1,
-    "updated": "2026-08-20 15:01"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "BCH/USDT": {
-    "direction": "LONG",
-    "entry": 222.2,
-    "strength": 1,
-    "updated": "2026-08-20 16:21"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3397,
-    "strength": 1,
-    "updated": "2026-08-20 17:24"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   },
   "AVAX/USDT": {
     "direction": "LONG",
@@ -90,9 +90,9 @@
     "updated": "2026-08-20 03:15"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 46.85,
-    "strength": 1,
-    "updated": "2026-08-20 08:02"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-20 18:21"
   }
 }
