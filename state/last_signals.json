@@ -18,10 +18,10 @@
     "updated": "2026-08-20 10:21"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-20 10:21"
+    "direction": "LONG",
+    "entry": 1.1907,
+    "strength": 1,
+    "updated": "2026-08-20 12:23"
   },
   "ADA/USDT": {
     "direction": "LONG",
@@ -36,10 +36,10 @@
     "updated": "2026-08-20 07:14"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-20 11:16"
+    "direction": "LONG",
+    "entry": 10.667,
+    "strength": 1,
+    "updated": "2026-08-20 12:23"
   },
   "NEAR/USDT": {
     "direction": "LONG",
@@ -78,10 +78,10 @@
     "updated": "2026-08-20 11:16"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-20 10:21"
+    "direction": "LONG",
+    "entry": 6.889,
+    "strength": 1,
+    "updated": "2026-08-20 12:23"
   },
   "ATOM/USDT": {
     "direction": "LONG",
