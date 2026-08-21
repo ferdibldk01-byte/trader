@@ -18,16 +18,16 @@
     "updated": "2026-08-21 10:23"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.3997,
-    "strength": 1,
-    "updated": "2026-08-21 09:05"
-  },
-  "ADA/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-08-21 10:23"
+    "updated": "2026-08-21 11:16"
+  },
+  "ADA/USDT": {
+    "direction": "LONG",
+    "entry": 0.2143,
+    "strength": 1,
+    "updated": "2026-08-21 11:16"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -36,10 +36,10 @@
     "updated": "2026-08-21 10:23"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-21 09:05"
+    "direction": "LONG",
+    "entry": 11.414,
+    "strength": 1,
+    "updated": "2026-08-21 11:16"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
