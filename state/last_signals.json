@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-25 06:25"
+    "direction": "LONG",
+    "entry": 80574.09,
+    "strength": 1,
+    "updated": "2026-08-25 07:17"
   },
   "ETH/USDT": {
     "direction": "LONG",
@@ -54,10 +54,10 @@
     "updated": "2026-08-24 12:23"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-25 03:24"
+    "direction": "LONG",
+    "entry": 100.76,
+    "strength": 1,
+    "updated": "2026-08-25 07:17"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
