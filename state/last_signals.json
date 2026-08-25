@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 80574.09,
-    "strength": 1,
-    "updated": "2026-08-25 07:17"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-25 12:23"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -12,10 +12,10 @@
     "updated": "2026-08-25 10:26"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-23 23:10"
+    "direction": "SHORT",
+    "entry": 696.78,
+    "strength": 1,
+    "updated": "2026-08-25 12:23"
   },
   "XRP/USDT": {
     "direction": "FLAT",
