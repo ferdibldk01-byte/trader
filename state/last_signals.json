@@ -18,10 +18,10 @@
     "updated": "2026-08-25 13:26"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-25 15:11"
+    "direction": "LONG",
+    "entry": 1.4343,
+    "strength": 1,
+    "updated": "2026-08-26 00:35"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-08-25 20:16"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-25 23:15"
+    "direction": "LONG",
+    "entry": 0.0857,
+    "strength": 1,
+    "updated": "2026-08-26 00:35"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-08-25 02:11"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-25 15:11"
+    "direction": "LONG",
+    "entry": 49.95,
+    "strength": 1,
+    "updated": "2026-08-26 00:35"
   }
 }
