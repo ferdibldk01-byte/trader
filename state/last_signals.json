@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 78014.37,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "ETH/USDT": {
-    "direction": "LONG",
-    "entry": 2448.58,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-08-29 11:13"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.4007,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -42,10 +42,10 @@
     "updated": "2026-08-28 13:01"
   },
   "NEAR/USDT": {
-    "direction": "LONG",
-    "entry": 1.84,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "UNI/USDT": {
     "direction": "LONG",
@@ -54,16 +54,16 @@
     "updated": "2026-08-29 15:41"
   },
   "SOL/USDT": {
-    "direction": "LONG",
-    "entry": 105.38,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.08561,
-    "strength": 1,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "BCH/USDT": {
     "direction": "SHORT",
@@ -78,10 +78,10 @@
     "updated": "2026-08-29 11:13"
   },
   "AVAX/USDT": {
-    "direction": "LONG",
-    "entry": 7.358,
-    "strength": 2,
-    "updated": "2026-08-29 15:41"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-08-29 18:58"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
