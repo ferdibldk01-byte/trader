@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 81755.41,
-    "strength": 1,
-    "updated": "2026-09-03 20:14"
-  },
-  "ETH/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-09-03 17:55"
+    "updated": "2026-09-03 22:40"
+  },
+  "ETH/USDT": {
+    "direction": "LONG",
+    "entry": 2511.19,
+    "strength": 1,
+    "updated": "2026-09-03 22:40"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-09-03 14:05"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.4714,
-    "strength": 1,
-    "updated": "2026-09-03 20:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-03 22:40"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -36,10 +36,10 @@
     "updated": "2026-09-02 09:45"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-03 17:55"
+    "direction": "LONG",
+    "entry": 11.941,
+    "strength": 1,
+    "updated": "2026-09-03 22:40"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-09-03 14:05"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 50.38,
-    "strength": 1,
-    "updated": "2026-09-03 05:17"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-03 22:40"
   }
 }
