@@ -6,10 +6,10 @@
     "updated": "2026-08-31 06:37"
   },
   "ETH/USDT": {
-    "direction": "SHORT",
-    "entry": 2377.65,
-    "strength": 1,
-    "updated": "2026-09-02 13:56"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-03 05:17"
   },
   "BNB/USDT": {
     "direction": "FLAT",
@@ -36,10 +36,10 @@
     "updated": "2026-09-02 09:45"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-02 22:43"
+    "direction": "LONG",
+    "entry": 11.252,
+    "strength": 1,
+    "updated": "2026-09-03 05:17"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -54,34 +54,34 @@
     "updated": "2026-09-02 22:43"
   },
   "SOL/USDT": {
-    "direction": "SHORT",
-    "entry": 99.66,
-    "strength": 1,
-    "updated": "2026-09-02 22:43"
-  },
-  "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.0815,
-    "strength": 1,
-    "updated": "2026-09-01 22:41"
-  },
-  "BCH/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-09-01 03:13"
+    "updated": "2026-09-03 05:17"
+  },
+  "DOGE/USDT": {
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-03 05:17"
+  },
+  "BCH/USDT": {
+    "direction": "LONG",
+    "entry": 249.3,
+    "strength": 1,
+    "updated": "2026-09-03 05:17"
   },
   "TRX/USDT": {
-    "direction": "SHORT",
-    "entry": 0.3228,
+    "direction": "LONG",
+    "entry": 0.3262,
     "strength": 1,
-    "updated": "2026-09-02 09:45"
+    "updated": "2026-09-03 05:17"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 7.097,
+    "direction": "LONG",
+    "entry": 7.296,
     "strength": 1,
-    "updated": "2026-09-02 13:56"
+    "updated": "2026-09-03 05:17"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-09-02 20:01"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-08-31 20:27"
+    "direction": "LONG",
+    "entry": 50.38,
+    "strength": 1,
+    "updated": "2026-09-03 05:17"
   }
 }
