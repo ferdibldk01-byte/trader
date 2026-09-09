@@ -24,16 +24,16 @@
     "updated": "2026-09-09 16:48"
   },
   "ADA/USDT": {
-    "direction": "SHORT",
-    "entry": 0.2157,
-    "strength": 1,
-    "updated": "2026-09-09 16:48"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-09 19:33"
   },
   "DOT/USDT": {
-    "direction": "LONG",
-    "entry": 1.217,
-    "strength": 1,
-    "updated": "2026-09-09 01:56"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-09 19:33"
   },
   "LINK/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-09-07 12:49"
   },
   "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.08893,
-    "strength": 1,
-    "updated": "2026-09-09 16:48"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-09 19:33"
   },
   "BCH/USDT": {
     "direction": "FLAT",
