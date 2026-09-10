@@ -1,27 +1,27 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-10 09:20"
+    "direction": "SHORT",
+    "entry": 76896.01,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-06 21:49"
+    "direction": "SHORT",
+    "entry": 2414.84,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-10 00:22"
+    "direction": "SHORT",
+    "entry": 705.66,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-09 16:48"
+    "direction": "SHORT",
+    "entry": 1.3585,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -48,10 +48,10 @@
     "updated": "2026-09-10 00:22"
   },
   "UNI/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-10 00:22"
+    "direction": "SHORT",
+    "entry": 5.883,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "SOL/USDT": {
     "direction": "SHORT",
@@ -60,10 +60,10 @@
     "updated": "2026-09-10 09:20"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-09 19:33"
+    "direction": "SHORT",
+    "entry": 0.08376,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "BCH/USDT": {
     "direction": "SHORT",
@@ -78,10 +78,10 @@
     "updated": "2026-09-09 22:04"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-08 11:52"
+    "direction": "SHORT",
+    "entry": 7.583,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   },
   "ATOM/USDT": {
     "direction": "SHORT",
@@ -90,9 +90,9 @@
     "updated": "2026-09-10 09:20"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-08 21:57"
+    "direction": "SHORT",
+    "entry": 51.84,
+    "strength": 1,
+    "updated": "2026-09-10 13:43"
   }
 }
