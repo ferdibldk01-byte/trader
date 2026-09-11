@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 17:25"
+    "direction": "SHORT",
+    "entry": 77054.0,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "ETH/USDT": {
     "direction": "LONG",
@@ -12,16 +12,16 @@
     "updated": "2026-09-11 09:14"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 17:25"
+    "direction": "SHORT",
+    "entry": 722.38,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 13:41"
+    "direction": "SHORT",
+    "entry": 1.3525,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "ADA/USDT": {
     "direction": "SHORT",
@@ -36,10 +36,10 @@
     "updated": "2026-09-11 00:17"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 17:25"
+    "direction": "SHORT",
+    "entry": 11.537,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -48,22 +48,22 @@
     "updated": "2026-09-11 17:25"
   },
   "UNI/USDT": {
-    "direction": "SHORT",
-    "entry": 6.083,
-    "strength": 1,
-    "updated": "2026-09-10 19:53"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-11 19:53"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 17:25"
+    "direction": "SHORT",
+    "entry": 101.09,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-11 13:41"
+    "direction": "SHORT",
+    "entry": 0.08409,
+    "strength": 1,
+    "updated": "2026-09-11 19:53"
   },
   "BCH/USDT": {
     "direction": "SHORT",
@@ -90,9 +90,9 @@
     "updated": "2026-09-11 17:25"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 53.09,
-    "strength": 2,
-    "updated": "2026-09-11 04:55"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-11 19:53"
   }
 }
