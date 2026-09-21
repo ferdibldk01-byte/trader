@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 86490.11,
-    "strength": 1,
-    "updated": "2026-09-21 20:02"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-09-21 23:25"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-09-20 16:36"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-21 15:12"
+    "direction": "LONG",
+    "entry": 1.5559,
+    "strength": 1,
+    "updated": "2026-09-21 23:25"
   },
   "ADA/USDT": {
     "direction": "LONG",
