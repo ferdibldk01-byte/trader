@@ -60,10 +60,10 @@
     "updated": "2026-09-20 19:09"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-20 23:40"
+    "direction": "LONG",
+    "entry": 0.08974,
+    "strength": 1,
+    "updated": "2026-09-21 08:04"
   },
   "BCH/USDT": {
     "direction": "FLAT",
