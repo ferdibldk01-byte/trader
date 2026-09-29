@@ -18,10 +18,10 @@
     "updated": "2026-09-28 14:15"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-26 22:24"
+    "direction": "LONG",
+    "entry": 1.5474,
+    "strength": 1,
+    "updated": "2026-09-29 13:10"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -54,10 +54,10 @@
     "updated": "2026-09-29 06:22"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-26 22:24"
+    "direction": "LONG",
+    "entry": 120.87,
+    "strength": 1,
+    "updated": "2026-09-29 13:10"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
