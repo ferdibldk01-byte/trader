@@ -42,10 +42,10 @@
     "updated": "2026-09-30 14:23"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-28 06:14"
+    "direction": "LONG",
+    "entry": 5.391,
+    "strength": 1,
+    "updated": "2026-09-30 19:31"
   },
   "UNI/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-09-28 20:38"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-09-27 19:23"
+    "direction": "SHORT",
+    "entry": 66.16,
+    "strength": 1,
+    "updated": "2026-09-30 19:31"
   }
 }
