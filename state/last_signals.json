@@ -36,16 +36,16 @@
     "updated": "2026-10-11 10:11"
   },
   "LINK/USDT": {
-    "direction": "SHORT",
-    "entry": 13.299,
-    "strength": 1,
-    "updated": "2026-10-11 20:25"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-11 23:46"
   },
   "NEAR/USDT": {
-    "direction": "LONG",
-    "entry": 5.791,
-    "strength": 1,
-    "updated": "2026-10-11 16:22"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-11 23:46"
   },
   "UNI/USDT": {
     "direction": "FLAT",
