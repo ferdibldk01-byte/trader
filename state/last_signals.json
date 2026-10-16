@@ -66,10 +66,10 @@
     "updated": "2026-10-15 11:47"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 278.4,
-    "strength": 1,
-    "updated": "2026-10-15 19:32"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-16 00:53"
   },
   "TRX/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-10-15 22:45"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-15 19:32"
+    "direction": "LONG",
+    "entry": 61.06,
+    "strength": 1,
+    "updated": "2026-10-16 00:53"
   }
 }
