@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-16 21:31"
+    "direction": "SHORT",
+    "entry": 81139.36,
+    "strength": 1,
+    "updated": "2026-10-17 22:45"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-16 21:31"
+    "direction": "SHORT",
+    "entry": 2381.32,
+    "strength": 1,
+    "updated": "2026-10-17 22:45"
   },
   "BNB/USDT": {
     "direction": "SHORT",
@@ -54,10 +54,10 @@
     "updated": "2026-10-16 21:31"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-16 14:30"
+    "direction": "SHORT",
+    "entry": 102.3,
+    "strength": 1,
+    "updated": "2026-10-17 22:45"
   },
   "DOGE/USDT": {
     "direction": "SHORT",
@@ -72,22 +72,22 @@
     "updated": "2026-10-16 21:31"
   },
   "TRX/USDT": {
-    "direction": "SHORT",
-    "entry": 0.3343,
-    "strength": 1,
-    "updated": "2026-10-17 20:46"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-17 22:45"
   },
   "AVAX/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-16 21:31"
+    "direction": "SHORT",
+    "entry": 9.653,
+    "strength": 1,
+    "updated": "2026-10-17 22:45"
   },
   "ATOM/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-17 18:15"
+    "direction": "SHORT",
+    "entry": 1.683,
+    "strength": 1,
+    "updated": "2026-10-17 22:45"
   },
   "LTC/USDT": {
     "direction": "SHORT",
