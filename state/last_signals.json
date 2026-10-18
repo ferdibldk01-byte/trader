@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 81960.0,
-    "strength": 1,
-    "updated": "2026-10-18 04:55"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-18 09:12"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -78,10 +78,10 @@
     "updated": "2026-10-17 22:45"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 9.653,
-    "strength": 1,
-    "updated": "2026-10-17 22:45"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-18 09:12"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
