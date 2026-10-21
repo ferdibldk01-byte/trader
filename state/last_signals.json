@@ -6,10 +6,10 @@
     "updated": "2026-10-21 19:27"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-20 19:25"
+    "direction": "LONG",
+    "entry": 2499.25,
+    "strength": 1,
+    "updated": "2026-10-21 22:33"
   },
   "BNB/USDT": {
     "direction": "LONG",
@@ -90,9 +90,9 @@
     "updated": "2026-10-19 20:39"
   },
   "LTC/USDT": {
-    "direction": "LONG",
-    "entry": 62.02,
-    "strength": 1,
-    "updated": "2026-10-21 19:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-21 22:33"
   }
 }
