@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "LONG",
-    "entry": 82816.01,
-    "strength": 1,
-    "updated": "2026-10-21 05:30"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-21 19:27"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -18,10 +18,10 @@
     "updated": "2026-10-21 15:27"
   },
   "XRP/USDT": {
-    "direction": "LONG",
-    "entry": 1.3566,
-    "strength": 1,
-    "updated": "2026-10-21 10:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-21 19:27"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -36,10 +36,10 @@
     "updated": "2026-10-20 19:25"
   },
   "LINK/USDT": {
-    "direction": "LONG",
-    "entry": 12.556,
-    "strength": 1,
-    "updated": "2026-10-21 15:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-21 19:27"
   },
   "NEAR/USDT": {
     "direction": "LONG",
@@ -54,16 +54,16 @@
     "updated": "2026-10-20 19:25"
   },
   "SOL/USDT": {
+    "direction": "LONG",
+    "entry": 108.1,
+    "strength": 1,
+    "updated": "2026-10-21 19:27"
+  },
+  "DOGE/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-10-20 19:25"
-  },
-  "DOGE/USDT": {
-    "direction": "LONG",
-    "entry": 0.08318,
-    "strength": 1,
-    "updated": "2026-10-21 15:27"
+    "updated": "2026-10-21 19:27"
   },
   "BCH/USDT": {
     "direction": "LONG",
@@ -72,10 +72,10 @@
     "updated": "2026-10-21 05:30"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3322,
-    "strength": 1,
-    "updated": "2026-10-21 15:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-21 19:27"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-10-19 20:39"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-21 05:30"
+    "direction": "LONG",
+    "entry": 62.02,
+    "strength": 1,
+    "updated": "2026-10-21 19:27"
   }
 }
