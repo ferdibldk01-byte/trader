@@ -12,10 +12,10 @@
     "updated": "2026-10-23 23:38"
   },
   "BNB/USDT": {
-    "direction": "SHORT",
-    "entry": 732.94,
-    "strength": 1,
-    "updated": "2026-10-24 21:18"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-24 23:27"
   },
   "XRP/USDT": {
     "direction": "SHORT",
