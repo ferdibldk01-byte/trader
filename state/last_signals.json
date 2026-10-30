@@ -6,22 +6,22 @@
     "updated": "2026-10-29 13:25"
   },
   "ETH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-29 13:25"
+    "direction": "SHORT",
+    "entry": 2195.34,
+    "strength": 1,
+    "updated": "2026-10-30 02:44"
   },
   "BNB/USDT": {
+    "direction": "SHORT",
+    "entry": 703.56,
+    "strength": 1,
+    "updated": "2026-10-30 02:44"
+  },
+  "XRP/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-10-25 11:51"
-  },
-  "XRP/USDT": {
-    "direction": "SHORT",
-    "entry": 1.246,
-    "strength": 1,
-    "updated": "2026-10-29 23:26"
+    "updated": "2026-10-30 02:44"
   },
   "ADA/USDT": {
     "direction": "FLAT",
@@ -30,16 +30,16 @@
     "updated": "2026-10-29 13:25"
   },
   "DOT/USDT": {
+    "direction": "SHORT",
+    "entry": 0.908,
+    "strength": 1,
+    "updated": "2026-10-30 02:44"
+  },
+  "LINK/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-10-29 00:30"
-  },
-  "LINK/USDT": {
-    "direction": "SHORT",
-    "entry": 10.751,
-    "strength": 1,
-    "updated": "2026-10-29 23:26"
+    "updated": "2026-10-30 02:44"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -48,10 +48,10 @@
     "updated": "2026-10-29 19:03"
   },
   "UNI/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-29 06:15"
+    "direction": "SHORT",
+    "entry": 6.559,
+    "strength": 1,
+    "updated": "2026-10-30 02:44"
   },
   "SOL/USDT": {
     "direction": "FLAT",
@@ -60,10 +60,10 @@
     "updated": "2026-10-29 13:25"
   },
   "DOGE/USDT": {
-    "direction": "SHORT",
-    "entry": 0.07618,
-    "strength": 1,
-    "updated": "2026-10-29 23:26"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-10-30 02:44"
   },
   "BCH/USDT": {
     "direction": "FLAT",
@@ -90,9 +90,9 @@
     "updated": "2026-10-28 08:48"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-29 13:25"
+    "direction": "SHORT",
+    "entry": 54.34,
+    "strength": 1,
+    "updated": "2026-10-30 02:44"
   }
 }
