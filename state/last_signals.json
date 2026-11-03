@@ -42,10 +42,10 @@
     "updated": "2026-11-03 18:32"
   },
   "NEAR/USDT": {
-    "direction": "SHORT",
-    "entry": 3.806,
-    "strength": 1,
-    "updated": "2026-11-03 03:32"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-03 23:45"
   },
   "UNI/USDT": {
     "direction": "FLAT",
@@ -72,10 +72,10 @@
     "updated": "2026-11-03 03:32"
   },
   "TRX/USDT": {
-    "direction": "LONG",
-    "entry": 0.3231,
-    "strength": 1,
-    "updated": "2026-11-03 11:27"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-03 23:45"
   },
   "AVAX/USDT": {
     "direction": "FLAT",
