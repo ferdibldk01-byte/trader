@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-02 04:54"
+    "direction": "SHORT",
+    "entry": 76170.85,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -12,22 +12,22 @@
     "updated": "2026-11-02 12:56"
   },
   "BNB/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 685.86,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "XRP/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-10-30 20:56"
+    "direction": "SHORT",
+    "entry": 1.2493,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "ADA/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 0.1851,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "DOT/USDT": {
     "direction": "FLAT",
@@ -36,16 +36,16 @@
     "updated": "2026-11-02 22:01"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 10.729,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "NEAR/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 23:45"
+    "direction": "SHORT",
+    "entry": 3.719,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "UNI/USDT": {
     "direction": "FLAT",
@@ -54,22 +54,22 @@
     "updated": "2026-11-03 11:27"
   },
   "SOL/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 90.87,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "DOGE/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 0.07315,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "BCH/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 03:32"
+    "direction": "SHORT",
+    "entry": 267.3,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "TRX/USDT": {
     "direction": "FLAT",
@@ -84,15 +84,15 @@
     "updated": "2026-10-30 16:05"
   },
   "ATOM/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 1.388,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   },
   "LTC/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-03 18:32"
+    "direction": "SHORT",
+    "entry": 52.63,
+    "strength": 1,
+    "updated": "2026-11-04 03:43"
   }
 }
