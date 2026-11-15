@@ -1,15 +1,15 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 67272.79,
-    "strength": 1,
-    "updated": "2026-11-14 12:21"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "ETH/USDT": {
-    "direction": "SHORT",
-    "entry": 1811.42,
-    "strength": 1,
-    "updated": "2026-11-15 09:39"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "BNB/USDT": {
     "direction": "SHORT",
@@ -36,22 +36,22 @@
     "updated": "2026-11-15 09:39"
   },
   "LINK/USDT": {
-    "direction": "SHORT",
-    "entry": 9.137,
-    "strength": 1,
-    "updated": "2026-11-15 09:39"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "NEAR/USDT": {
-    "direction": "SHORT",
-    "entry": 3.139,
-    "strength": 1,
-    "updated": "2026-11-15 09:39"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "UNI/USDT": {
-    "direction": "SHORT",
-    "entry": 5.015,
-    "strength": 1,
-    "updated": "2026-11-15 09:39"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "SOL/USDT": {
     "direction": "SHORT",
@@ -66,10 +66,10 @@
     "updated": "2026-11-15 09:39"
   },
   "BCH/USDT": {
-    "direction": "SHORT",
-    "entry": 205.7,
-    "strength": 1,
-    "updated": "2026-11-15 09:39"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-15 21:24"
   },
   "TRX/USDT": {
     "direction": "SHORT",
