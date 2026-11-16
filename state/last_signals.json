@@ -72,16 +72,16 @@
     "updated": "2026-11-15 21:24"
   },
   "TRX/USDT": {
-    "direction": "SHORT",
-    "entry": 0.3054,
+    "direction": "LONG",
+    "entry": 0.3071,
     "strength": 1,
-    "updated": "2026-11-15 02:14"
+    "updated": "2026-11-16 18:43"
   },
   "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.824,
-    "strength": 1,
-    "updated": "2026-11-15 02:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-16 18:43"
   },
   "ATOM/USDT": {
     "direction": "FLAT",
