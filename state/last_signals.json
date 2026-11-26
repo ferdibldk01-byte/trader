@@ -1,9 +1,9 @@
 {
   "BTC/USDT": {
-    "direction": "SHORT",
-    "entry": 60971.47,
-    "strength": 1,
-    "updated": "2026-11-26 05:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-26 15:30"
   },
   "ETH/USDT": {
     "direction": "FLAT",
@@ -12,10 +12,10 @@
     "updated": "2026-11-25 23:24"
   },
   "BNB/USDT": {
-    "direction": "SHORT",
-    "entry": 560.17,
-    "strength": 1,
-    "updated": "2026-11-26 05:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-26 15:30"
   },
   "XRP/USDT": {
     "direction": "FLAT",
@@ -36,10 +36,10 @@
     "updated": "2026-11-25 23:24"
   },
   "LINK/USDT": {
-    "direction": "FLAT",
-    "entry": null,
-    "strength": 0,
-    "updated": "2026-11-25 23:24"
+    "direction": "LONG",
+    "entry": 9.189,
+    "strength": 1,
+    "updated": "2026-11-26 15:30"
   },
   "NEAR/USDT": {
     "direction": "FLAT",
@@ -54,10 +54,10 @@
     "updated": "2026-11-25 23:24"
   },
   "SOL/USDT": {
-    "direction": "SHORT",
-    "entry": 71.14,
-    "strength": 1,
-    "updated": "2026-11-26 05:14"
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-26 15:30"
   },
   "DOGE/USDT": {
     "direction": "FLAT",
@@ -72,22 +72,22 @@
     "updated": "2026-11-25 23:24"
   },
   "TRX/USDT": {
-    "direction": "SHORT",
-    "entry": 0.3042,
-    "strength": 1,
-    "updated": "2026-11-26 05:14"
-  },
-  "AVAX/USDT": {
-    "direction": "SHORT",
-    "entry": 6.694,
-    "strength": 1,
-    "updated": "2026-11-26 05:14"
-  },
-  "ATOM/USDT": {
     "direction": "FLAT",
     "entry": null,
     "strength": 0,
-    "updated": "2026-11-25 23:24"
+    "updated": "2026-11-26 15:30"
+  },
+  "AVAX/USDT": {
+    "direction": "FLAT",
+    "entry": null,
+    "strength": 0,
+    "updated": "2026-11-26 15:30"
+  },
+  "ATOM/USDT": {
+    "direction": "SHORT",
+    "entry": 1.197,
+    "strength": 1,
+    "updated": "2026-11-26 15:30"
   },
   "LTC/USDT": {
     "direction": "FLAT",
